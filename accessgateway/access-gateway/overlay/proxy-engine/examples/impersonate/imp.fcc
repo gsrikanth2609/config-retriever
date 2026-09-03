@@ -1,0 +1,25 @@
+@smpushsession=true
+@username=%USER%
+@smheaders=SM_SERVERSESSIONSPEC
+@password=%SM_SERVERSESSIONSPEC%
+@smretries=0
+<html>
+<head><title>Sample Impersonation Form</title><head>
+<body>
+<h3> Please enter the username for the user you wish to impersonate:</h3>
+<form method=post>
+<table>
+<tr> <td><b>Username: </b></td>
+<td><input type="text" name="USER" ></td>
+<td>
+<input type=hidden name=target
+value="https://cloudssoagtesting.ca.com/impersonate/success.html">
+<input type=hidden name=smauthreason value="$$smauthreason$$">
+<input type=hidden name=smagentname value="$$smagentname$$">
+<input type=hidden name=postpreservationdata value="$$postpreservationdata$$">
+<input type="submit" value="Impersonate">
+</td>
+</tr>
+</table>
+</form></body>
+</html>

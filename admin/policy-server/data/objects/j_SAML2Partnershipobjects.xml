@@ -1,0 +1,2870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0700.3093
+     by os:nobody
+     at 08:12:14 on 2023-09-01 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminps-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <References>
+            <ReferenceValue ReferenceId="Ref00001">
+                <StringValue>idpidpar</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00002">
+                <StringValue>https://cloudssoagtesting.ca.com/saml2post/target.html</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00003">
+                <StringValue>spidpar</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00004">
+                <StringValue>https://cloudssoagtesting.ca.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00005">
+                <StringValue>cn=Directory Manager</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00006">
+                <StringValue>o=security.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00007">
+                <StringValue>52.140.82.167:1389</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00008">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2slosoap</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00009">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2slo</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00010">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2sso</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00011">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2ars</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00012">
+                <StringValue>https://cloudssoagtesting.sp.com/affwebservices/public/saml2slo</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00013">
+                <StringValue>https://cloudssoagtesting.sp.com/affwebservices/public/saml2slosoap</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00014">
+                <StringValue>https://cloudssoagtesting.sp.com/affwebservices/public/saml2nidsoap</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00015">
+                <StringValue>https://cloudssoagtesting.sp.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00016">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2attrsvc</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00017">
+                <StringValue>https://cloudssoagtesting.sp.com/affwebservices/public/saml2assertionconsumer</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00018">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2nidsoap</StringValue>
+            </ReferenceValue>
+            <ReferenceObject ReferenceId="Ref00021" ObjectClass="CA.SM::AuthScheme">
+            <Xid>CA.SM::AuthScheme@0d-6dc75be0-1935-11d3-95cc-00c04f7468ef</Xid>
+            <Attribute Name="CA.SM::AuthScheme.Library" Type="Identity">
+                <StringValue>smauthanon</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AuthScheme.Name" Type="Identity">
+                <StringValue>Anonymous Template</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AuthScheme.Desc" Type="Comment">
+                <StringValue>Anonymous</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00020" ObjectClass="CA.SM::AgentTypeAttr">
+            <Xid>CA.SM::AgentTypeAttr@11-3974f60e-eb2e-49b8-96cc-fd6253483c0d</Xid>
+            <Attribute Name="CA.SM::AgentTypeAttr.Name" Type="Identity">
+                <StringValue>Affiliate-HTTP-Header-Variable</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00019" ObjectClass="CA.SM::AgentType">
+            <Xid>CA.SM::AgentType@10-fbe22c2f-ce96-4465-a8f3-45219bdd5232</Xid>
+            <Attribute Name="CA.SM::AgentType.Name" Type="Identity">
+                <StringValue>AffiliateMinder</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AgentType.Desc" Type="Comment">
+                <StringValue>AffiliateMinder Agent</StringValue>
+            </Attribute>
+            </ReferenceObject>
+        </References>
+        <Object Class="CA.FED::StatusRedirects" Xid="CA.FED::StatusRedirects@000362f6-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::StatusRedirects.ServerErrorRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnacceptedMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidRequestRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnauthorizedAccessRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UserNotFoundMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableInvalidRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableUnauthorizedRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableServerErrorURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::StatusRedirects@000362f6-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::StatusRedirects" Xid="CA.FED::StatusRedirects@0003204d-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::StatusRedirects.ServerErrorRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnacceptedMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidRequestRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnauthorizedAccessRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UserNotFoundMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableInvalidRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableUnauthorizedRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableServerErrorURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::StatusRedirects@0003204d-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::OpenCookieConfig" Xid="CA.FED::OpenCookieConfig@000255c8-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OpenCookieConfig.SkewTime">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.TimeToLive">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableQuotedCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionTransformation">
+                <StringValue>AES128/CBC/PKCS5Padding</StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableHMAC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.CookieName">
+                <StringValue>DEFAULT</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OpenCookieConfig@000255c8-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::OpenCookieConfig" Xid="CA.FED::OpenCookieConfig@00023383-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OpenCookieConfig.SkewTime">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.TimeToLive">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableQuotedCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionTransformation">
+                <StringValue>AES128/CBC/PKCS5Padding</StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableHMAC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.CookieName">
+                <StringValue>DEFAULT</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OpenCookieConfig@00023383-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::OpenCookieConfig" Xid="CA.FED::OpenCookieConfig@0002fe50-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionPassword" Sensitive="Yes">
+                <StringValue> </StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.SkewTime">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableQuotedCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionTransformation">
+                <StringValue>AES128/CBC/PKCS5Padding</StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableHMAC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.CookieName">
+                <StringValue>DEFAULT</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OpenCookieConfig@0002fe50-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-000a5add-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::Agent.RealmHintAttrId">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Agent.AgentTypeLink">
+                <LinkValue>
+                    <XREF>Ref00019</XREF>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Name">
+                <StringValue>samlidp:saml2artspidp</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::Agent@01-000a5add-4dd3-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-0003a58f-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::Agent.RealmHintAttrId">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Agent.AgentTypeLink">
+                <LinkValue>
+                    <XREF>Ref00019</XREF>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Name">
+                <StringValue>samlsp:saml2artidpsp</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::Agent@01-0003a58f-4afe-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::AttributeRequesterConfig" Xid="CA.FED::AttributeRequesterConfig@00034455-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::AttributeRequesterConfig.EnableProxiedQuery">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeRequesterConfig.GetAllAttributes">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeRequesterConfig.RequireSignedResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeRequesterConfig.RequireSignedAssertion">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeRequesterConfig.SignAttributeQuery">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeRequesterConfig.Enabled">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::AttributeRequesterConfig@00034455-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::AttributeAuthorityConfig" Xid="CA.FED::AttributeAuthorityConfig@00020901-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::AttributeAuthorityConfig.EnableProxiedQuery">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeAuthorityConfig.RequireSignedQuery">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeAuthorityConfig.SignResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeAuthorityConfig.SignAssertion">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::AttributeAuthorityConfig.ValidityDuration">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AttributeAuthorityConfig.Enabled">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::AttributeAuthorityConfig@00020901-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0007121b-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0007121b-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000187b9-4941-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:15:29" ModifiedDateTime="2023-09-01T06:51:31" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000187b9-4941-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000e7496-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00014</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::MNIService.IsMNIService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000e7496-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000e5643-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00013</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+            <Property Name="CA.FED::SLOService.IsSLOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000e5643-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000e38e8-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00012</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::SLOService.IsSLOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000e38e8-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000d85e2-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:PAOS</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000d85e2-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000d6805-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000d6805-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000d479c-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000d479c-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000d29e0-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00011</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+            <Property Name="CA.FED::ArtResService.IsArtResService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000d29e0-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000d0bfe-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00010</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::SSOService.IsSSOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000d0bfe-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00072efa-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00017</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AssConService.IsAssConService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00072efa-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0008a7c3-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00018</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::MNIService.IsMNIService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0008a7c3-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00088a56-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00009</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+            <Property Name="CA.FED::SLOService.IsSLOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00088a56-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00086c46-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00008</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+            <Property Name="CA.FED::SLOService.IsSLOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00086c46-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0007a8a0-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00016</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+            <Property Name="CA.FED::AttributeService.IsAttributeService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0007a8a0-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00029844-7b43-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T05:48:51" ModifiedDateTime="2023-09-01T06:50:22" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00010</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+            <Property Name="CA.FED::SSOService.IsSSOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00029844-7b43-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00084ca7-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00009</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::SLOService.IsSLOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00084ca7-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000769af-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00010</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+            <Property Name="CA.FED::SSOService.IsSSOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000769af-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000787d8-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00011</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:SOAP</StringValue>
+            </Property>
+            <Property Name="CA.FED::ArtResService.IsArtResService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000787d8-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@00074bb8-8cd3-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:03:47" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00010</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::SSOService.IsSSOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@00074bb8-8cd3-14f1-9531-020f0af42020" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000cedda-8e24-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:09:24" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00010</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST</StringValue>
+            </Property>
+            <Property Name="CA.FED::SSOService.IsSSOService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000cedda-8e24-14f1-9531-020f0af42020" -->
+        <Object Class="CA.SM::UserDirectory" Xid="CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f" CreatedDateTime="2023-08-29T10:47:20" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Add">
+            <Property Name="CA.SM::UserDirectory.UseAdvancedAuthStore">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.RequireCredentials">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SecureConnection">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupEnd">
+                <StringValue>)(objectclass=*))</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Username">
+                <LinkValue><XREF>Ref00005</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
+                <StringValue>firewall</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupStart">
+                <StringValue>(&amp;(uid=</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchScope">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Server">
+                <LinkValue><XREF>Ref00007</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchRoot">
+                <LinkValue><XREF>Ref00006</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchResults">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Namespace">
+                <StringValue>LDAP:</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.EnableSecurityContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchTimeout">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Name">
+                <StringValue>k8stestUD</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f" -->
+        <Object Class="CA.SM::AuthScheme" Xid="CA.SM::AuthScheme@0d-000a5cf7-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" ModifiedDateTime="2023-09-01T07:31:01" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::AuthScheme.IPCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowAuthLevelOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.SupportsValidateIdentity">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsRadius">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IgnorePwCheck">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowSaveCreds">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Type">
+                <NumberValue>29</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsUsedbyAdmin">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Param">
+                <StringValue>SAML2:@21-00089327-9334-14f1-9531-020f0af42020</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Library">
+                <StringValue>smauthsaml</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Level">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsTemplate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Desc">
+                <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Name">
+                <StringValue>samlidp:saml2artspidp_auth</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::SAMLv2IdP" Xid="CA.SM::SAMLv2IdP@21-00089327-9334-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:31:01" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::SAMLv2IdP.ReadAMRFromAssertionAttribute">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ReadAMRFromAuthNCtxClass">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SendACSUrlInAuthnRequest">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniDeleteNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniNotificationAuthType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniEnableNotification">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniRetryBoundary">
+                    <NumberValue>15</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniRetryCount">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniSignResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniRequireSignedRequest">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniRequireEncryptedNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniEncryptNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniEnablePostBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AllowAuthLevelOverride">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.PersistSessionVars">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableAuthnRequestRedirect">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableAuthnRequestPost">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AllowTransactionType">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AuthnContextUsage">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.QPOverridesReqAuthnContext">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.QPOverrideAllowCreate">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniRequireSignedResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSMC">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.UnauthorizedAccessRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.InvalidRequestRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableInvalidRequestURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.UrlEncodeAttrCookieData">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.TargetEnableOpenCookieHMAC">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniSignRequest">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ProvEnableOpenCookieHMAC">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ArtifactResolutionDefaultService">
+                    <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2ars</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AssertionConsumerDefaultURL">
+                    <StringValue>06-000a5f8d-4dd3-14f1-8ce3-020e0af40000</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SSOPostIndex">
+                    <StringValue>0</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.NameIdAllowNested">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.NameIdAttrName">
+                    <StringValue>*</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SSOArtifactIndex">
+                    <StringValue>1</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniNotifyPassword" Sensitive="Yes">
+                    <StringValue>*</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.NameIdType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.NameIdFormat">
+                    <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniEnableRedirectBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.IsActive">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.TargetEnableQuotedOpenCookie">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSAMLRequester">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ProvisioningDeliveryType">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RequireEncryptedNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SMCOverrideProtectionLevel">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableRequestedAuthnContext">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.FailureRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ProvisioningType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnforceSingleUsePolicy">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ProxyServer">
+                    <StringValue>https://cloudssoagtesting.sp.com</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.KEY_IdPSourceID">
+                    <StringValue>47d2b3e8ce792cddefbde0ad1ca75117e59c686b</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RelayStateOverridesSloConfirm">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.PartnershipSource">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSSOArtifactBinding">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.BackChannelAuthType">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SignatureAlgo">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ProvEnableQuotedOpenCookie">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SPID">
+                    <StringValue>spidpar</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSSOPostBinding">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSLOPostBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AuthnContextRowCount">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSLOSOAPBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SignAuthnRequests">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniAllowUserSelfService">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SLOServiceValidityDuration">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SAMLReqSignAttributeQuery">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RequireEncryptedAssertion">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.UserNotFoundRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SAMLReqGetAllAttributes">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.IncomingBackChannelAuthType">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RequireSignedArtifactResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSLORedirectBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RequireUserConsent">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SignArtifactResolve">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.CompareUserDNForSMC">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.Target">
+                    <StringValue>https://cloudssoagtesting.ca.com/saml2post/target.html</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RelayStateOverridesSsoTarget">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SkewTime">
+                    <NumberValue>600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.AllowIdPtoCreateUserIdentifier">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniSOAPTimeout">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableServerErrorURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.POSTSSODefaultService">
+                    <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2sso</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniNotifyTimeout">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniNotifyUserName">
+                    <StringValue>*</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.LDAPSearchSpec">
+                    <StringValue>uid=%s</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.MniEnableSOAPBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.Enabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SAMLMinorVersion">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ValidateTargetURLDomain">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.RedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.DisableSignatureProcessing">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.InvalidRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableSSOECPProfile">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SAMLReqRequireSignedAssertion">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.DomainOid">
+                    <StringValue>@03-00046e13-4c65-14f1-8ce3-020e0af40000</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.ServerErrorRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableAttributeMapping">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EnableUnauthorizedRequestURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SAMLMajorVersion">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.SSODefaultService">
+                    <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/saml2sso</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.KEY_IdPID">
+                    <StringValue>idpidpar</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.EncryptNameIDForSLOSOAP">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2IdP.Name">
+                    <StringValue>saml2artspidp</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object><!-- Xid="CA.SM::SAMLv2IdP@21-00089327-9334-14f1-9531-020f0af42020" -->
+        </Object><!-- Xid="CA.SM::AuthScheme@0d-000a5cf7-4dd3-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::NameIDMgtConfig" Xid="CA.FED::NameIDMgtConfig@00038461-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyPassword" Sensitive="Yes">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyUserName">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableNotification">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RetryCount">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SignRequest">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EncryptNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.AllowUserSelfService">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RetryBoundary">
+                <NumberValue>15</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyTimeout">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireEncryptedNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableSOAPBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SOAPTimeout">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireSignedResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireSignedRequest">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnablePostBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.DeleteNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotificationAuthType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SignResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableRedirectBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::NameIDMgtConfig@00038461-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::NameIDMgtConfig" Xid="CA.FED::NameIDMgtConfig@00034453-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyPassword" Sensitive="Yes">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyUserName">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableNotification">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RetryCount">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SignRequest">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EncryptNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.AllowUserSelfService">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RetryBoundary">
+                <NumberValue>15</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotifyTimeout">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireEncryptedNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableSOAPBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SOAPTimeout">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireSignedResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.RequireSignedRequest">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnablePostBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.DeleteNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.NotificationAuthType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.SignResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::NameIDMgtConfig.EnableRedirectBinding">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::NameIDMgtConfig@00034453-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.SM::Domain" Xid="CA.SM::Domain@03-00046e13-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>Backing Domain for IdPPartnership</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>samlidp:saml2artspidp</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::Response" Xid="CA.SM::Response@07-000a6df4-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XREF>Ref00019</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>samlidp:saml2artspidp_samldata</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" Xid="CA.SM::ResponseAttr@08-000a71f4-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::ResponseAttr.ActiveExprString">
+                        <StringValue>&lt;@lib=&quot;smfeddataresponse&quot; func=&quot;getSamlData&quot; param=&quot;&quot;@&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>SAMLDataResponse</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XREF>Ref00020</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::ResponseAttr@08-000a71f4-4dd3-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Response@07-000a6df4-4dd3-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-000a5f8d-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-000a5cf7-4dd3-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-000a5add-4dd3-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>samlidp:saml2artspidp</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000a67b7-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Visit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>samlidp:saml2artspidp</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000a67b7-4dd3-14f1-8ce3-020e0af40000" -->
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000a72f9-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>OnAuthAccept</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>samlidp:saml2artspidp_SAMLDataAcceptRule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000a72f9-4dd3-14f1-8ce3-020e0af40000" -->
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000a745a-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>OnAuthAttempt</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>samlidp:saml2artspidp_SAMLDataNotFoundRule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000a745a-4dd3-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-000a5f8d-4dd3-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::RuleGroup" Xid="CA.SM::RuleGroup@0c-000a7598-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::RuleGroup.RulesLink">
+                    <LinkValue>
+                        <XID>CA.SM::Rule@0b-000a72f9-4dd3-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                    <LinkValue>
+                        <XID>CA.SM::Rule@0b-000a745a-4dd3-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::RuleGroup.AgentTypeLink">
+                    <LinkValue>
+                        <XREF>Ref00019</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::RuleGroup.Name">
+                    <StringValue>samlidp:saml2artspidp_samldata</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object><!-- Xid="CA.SM::RuleGroup@0c-000a7598-4dd3-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::Policy" Xid="CA.SM::Policy@04-00046f9c-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>samlidp:saml2artspidp</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" Xid="CA.SM::UserPolicy@0f-00079522-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>all</StringValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::UserPolicy@0f-00079522-4c65-14f1-8ce3-020e0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000a68f7-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000a67b7-4dd3-14f1-8ce3-020e0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000a68f7-4dd3-14f1-8ce3-020e0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000a7743-4dd3-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:34:59" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.ResponseLink">
+                        <LinkValue>
+                            <XID>CA.SM::Response@07-000a6df4-4dd3-14f1-8ce3-020e0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleGroupLink">
+                        <LinkValue>
+                            <XID>CA.SM::RuleGroup@0c-000a7598-4dd3-14f1-8ce3-020e0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000a7743-4dd3-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Policy@04-00046f9c-4c65-14f1-8ce3-020e0af40000" -->
+        </Object><!-- Xid="CA.SM::Domain@03-00046e13-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.SM::Domain" Xid="CA.SM::Domain@03-00044f3b-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>Backing Affiliate Domain for SPPartnership</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>samlsp:saml2artidpsp</StringValue>
+            </Property>
+            <Property Name="CA.SM::AffiliateDomain.IsAffiliateDomain">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::Response" Xid="CA.SM::Response@07-0003b2c1-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XREF>Ref00019</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>samlsp:saml2artidpsp_az</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" Xid="CA.SM::ResponseAttr@08-0003b836-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" ModifiedDateTime="2023-09-01T07:30:56" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::ResponseAttr.ActiveExprString">
+                        <StringValue>&lt;@lib=&quot;smjavaapi&quot; func=&quot;JavaActiveExpression&quot; param=&quot;com.netegrity.assertiongenerator.AssertionGenerator -AssertionHandler:SAML20 &quot;@&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>SAML2Response</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XREF>Ref00020</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::ResponseAttr@08-0003b836-4afe-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Response@07-0003b2c1-4afe-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-0003a802-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XREF>Ref00021</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-0003a58f-4afe-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>samlsp:saml2artidpsp_az</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-0003b100-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Visit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>samlsp:saml2artidpsp_az</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-0003b100-4afe-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-0003a802-4afe-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::Policy" Xid="CA.SM::Policy@04-000451e5-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>samlsp:saml2artidpsp</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" Xid="CA.SM::UserPolicy@0f-0007a541-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:06" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>all</StringValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::UserPolicy@0f-0007a541-4997-14f1-8ce3-020e0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-0003b90f-4afe-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:22:54" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.ResponseLink">
+                        <LinkValue>
+                            <XID>CA.SM::Response@07-0003b2c1-4afe-14f1-8ce3-020e0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-0003b100-4afe-14f1-8ce3-020e0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-0003b90f-4afe-14f1-8ce3-020e0af40000" -->
+            </Object><!-- Xid="CA.SM::Policy@04-000451e5-4997-14f1-8ce3-020e0af40000" -->
+            <Object Class="CA.SM::SAMLv2SP" Xid="CA.SM::SAMLv2SP@21-00016967-9330-14f1-9531-020f0af42020" CreatedDateTime="2023-09-01T07:30:57" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::SAMLv2SP.ValidateBaseURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AcceptIncomingAcsUrl">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.UseStateCookie">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniDeleteNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniNotifyTimeout">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniNotificationAuthType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniEnableNotification">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniRetryBoundary">
+                    <NumberValue>15</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniRequireSignedRequest">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniSignRequest">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniRequireEncryptedNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniEncryptNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniEnableSOAPBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniEnablePostBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnforceForceAuthnNewSession">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnforceForceAuthnSessionTimeouts">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AllowOFCAuthnContextOverride">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SignatureAlgo">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AuthnContextType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableUserConsent">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniRequireSignedResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSMC">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.UnauthorizedAccessRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableUnauthorizedRequestURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.InvalidRequestRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableInvalidRequestURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableNegAuthResp">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.OutgoingBackChannelAuthType">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.CustomTimeout">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SessionNotOnOrAfterType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.GUIDCookieValidityDuration">
+                    <NumberValue>180</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ValidityDuration">
+                    <NumberValue>600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniAllowUserSelfService">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SLOServiceValidityDuration">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SkewTime">
+                    <NumberValue>600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SAMLMajorVersion">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.RequireSignedArtifactResolve">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SignArtifactResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.RealmLink">
+                    <LinkValue>
+                        <XID>CA.SM::Realm@06-0003a802-4afe-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.PolicyLink">
+                    <LinkValue>
+                        <XID>CA.SM::Policy@04-000451e5-4997-14f1-8ce3-020e0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniNotifyPassword" Sensitive="Yes">
+                    <StringValue>*</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.NameIdType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.NameIdAttrName">
+                    <StringValue>uid</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EncryptNameIDForSLOSOAP">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.Name">
+                    <StringValue>saml2artidpsp</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EncryptNameID">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSSOPostBinding">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSSOECPProfile">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EncryptionBlockAlgorithm">
+                    <StringValue>tripledes</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.PartnershipSource">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSSOArtifactBinding">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.PartnershipArtifactProtEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSLORedirectBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableAttributeService">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ProxyServer">
+                    <StringValue>https://cloudssoagtesting.ca.com</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.RequireSignedAuthnRequests">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ServerErrorRedirectMode">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EncryptAssertion">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.SAMLMinorVersion">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniNotifyUserName">
+                    <StringValue>*</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.IgnoreRequestedAuthnContext">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.DisableSignatureProcessing">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableIPD">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.IdPID">
+                    <StringValue>idpidpar</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableAuthnRequestPost">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AuthnContextClassRef">
+                    <StringValue>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AuthenticationLevel">
+                    <NumberValue>5</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcEnableProxiedQuery">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableAuthnRequestRedirect">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcLegacyAAProtEnabled">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcPartnershipAAProtEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcSignResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSLOPostBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EncryptionKeyAlgorithm">
+                    <StringValue>rsa-v15</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcValidityDuration">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AuthnContextRowCount">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableSLOSOAPBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.CompareUserDNForSMC">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.PersistentCookie">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AllowTransactionType">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.PostSignatureOption">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AssertionConsumerSvcRowCount">
+                    <StringValue>2</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.NetegrityAffiliateMinderAuthURL">
+                    <StringValue>https://cloudssoagtesting.ca.com/affwebservices/redirectjsp/redirect.jsp</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcSignAssertion">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AssertionConsumerSvcURL">
+                    <StringValue>0|HTTP-Post|https://cloudssoagtesting.sp.com/affwebservices/public/saml2assertionconsumer</StringValue>
+                    <StringValue>1|HTTP-Artifact|https://cloudssoagtesting.sp.com/affwebservices/public/saml2assertionconsumer</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ArtifactEncoding">
+                    <StringValue>URL</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.RelayStateOverridesSloConfirm">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.OneTimeUse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ReuseSessionIndex">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.LegacyArtifactProtEnabled">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniSignResponse">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.KEY_SPID">
+                    <StringValue>spidpar</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AssertionConsumerSvcDefaultIndex">
+                    <StringValue>0</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AttrSvcRequireSignedQuery">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.NameIdFormat">
+                    <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniEnableRedirectBinding">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.IsActive">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniSOAPTimeout">
+                    <NumberValue>60</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.EnableServerErrorURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AuthenticationType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AssertionConsumerDefaultURL">
+                    <StringValue>https://cloudssoagtesting.sp.com/affwebservices/public/saml2assertionconsumer</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.BackChannelAuthType">
+                    <NumberValue>2</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.UseSecureAuthURL">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.AllowCreationOfUserIdentifier">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.MniRetryCount">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.ArtifactSignatureOption">
+                    <NumberValue>3</NumberValue>
+                </Property>
+                <Property Name="CA.SM::SAMLv2SP.IdPSourceID">
+                    <StringValue>47d2b3e8ce792cddefbde0ad1ca75117e59c686b</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object><!-- Xid="CA.SM::SAMLv2SP@21-00016967-9330-14f1-9531-020f0af42020" -->
+        </Object><!-- Xid="CA.SM::Domain@03-00044f3b-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::SPBase" Xid="CA.FED::SPBase@000b9ecf-4b94-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:25:24" ModifiedDateTime="2023-09-01T06:50:44" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::SPBase.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SignAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPLocal.BaseURL">
+                <LinkValue><XREF>Ref00015</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SPID">
+                <StringValue>spidpar</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.Name">
+                <StringValue>spidparlocal</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPLocal.IsSPLocal">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::SPBase@000b9ecf-4b94-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::SPBase" Xid="CA.FED::SPBase@0001ac31-4941-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:15:29" ModifiedDateTime="2023-09-01T06:51:31" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::SPBase.AssConSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000187b9-4941-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SignAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SPID">
+                <StringValue>spidpar</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.Name">
+                <StringValue>spidparremote</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPBase.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPRemote.IsSPRemote">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::SPBase@0001ac31-4941-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::EncryptionConfig" Xid="CA.FED::EncryptionConfig@0001d7ff-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::EncryptionConfig.EncryptKeyAlgorithm">
+                <StringValue>rsa-v15</StringValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptAttributes">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptBlockAlgorithm">
+                <StringValue>tripledes</StringValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptAssertion">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::EncryptionConfig@0001d7ff-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::EncryptionConfig" Xid="CA.FED::EncryptionConfig@0001c6df-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::EncryptionConfig.EncryptKeyAlgorithm">
+                <StringValue>rsa-v15</StringValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptAttributes">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptBlockAlgorithm">
+                <StringValue>tripledes</StringValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptAssertion">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::EncryptionConfig.EncryptNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::EncryptionConfig@0001c6df-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@00019a82-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>defaultUser</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@00019a82-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@0001ba6d-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.BackchannelTimeout">
+                <NumberValue>300</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>defaultUser</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@0001ba6d-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@000181f0-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>defaultUser</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@000181f0-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@0001a573-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.BackchannelTimeout">
+                <NumberValue>300</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>defaultUser</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@0001a573-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::AttributeSource" Xid="CA.FED::AttributeSource@0001f578-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::AttributeSource.UserAttribute">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.IdentityProfileCookieAttribute">
+                <StringValue>*</StringValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.DirectoryAttrType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::AttributeSource@0001f578-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::AttributeSource" Xid="CA.FED::AttributeSource@0001e6ed-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:26:05" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::AttributeSource.UserAttribute">
+                <StringValue>uid</StringValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.IdentityProfileCookieAttribute">
+                <StringValue>uid</StringValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.DirectoryAttrType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::AttributeSource.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::AttributeSource@0001e6ed-4997-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::UserMapping" Xid="CA.FED::UserMapping@000214cb-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:30:15" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::UserMapping.LDAPSearchSpec">
+                <StringValue>uid=%s</StringValue>
+            </Property>
+            <Property Name="CA.FED::UserMapping.LookupType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::UserMapping.Type">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::UserMapping@000214cb-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::IdPBase" Xid="CA.FED::IdPBase@000049b6-4c33-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:03" ModifiedDateTime="2023-09-01T06:50:22" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::IdPBase.SSOSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00029844-7b43-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.RequireSignedAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.IdPID">
+                <StringValue>idpidpar</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.Name">
+                <StringValue>idpidparremote</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPRemote.IsIdPRemote">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::IdPBase@000049b6-4c33-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::IdPBase" Xid="CA.FED::IdPBase@000409c6-4880-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:12:16" ModifiedDateTime="2023-09-01T06:50:33" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::IdPBase.RequireSignedAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPLocal.EnableFederatedAppSupport">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPLocal.BaseURL">
+                <LinkValue><XREF>Ref00004</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.IdPID">
+                <StringValue>idpidpar</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPBase.Name">
+                <StringValue>idpidparllocal</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPLocal.IsIdPLocal">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::IdPBase@000409c6-4880-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::PartnershipBase" Xid="CA.FED::PartnershipBase@00043f28-4c65-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:28:53" ModifiedDateTime="2023-09-01T07:31:01" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::IdPPartnership.IdPRemoteLink">
+                <LinkValue>
+                    <XID>CA.FED::IdPBase@000049b6-4c33-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSessionAssurance">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.MetadataMNISvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000e7496-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.DisableSignatureProcessing">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SMCOverrideProtectionLevel">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ReadAMRFromAuthNCtxClass">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SLOValidityDuration">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.MetadataAssConSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d479c-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d6805-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d85e2-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RequireEncryptedNameID">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.DefaultTarget">
+                <LinkValue><XREF>Ref00002</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.DomainLink">
+                <LinkValue>
+                    <XID>CA.SM::Domain@03-00046e13-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLO">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ProvOpenCookieConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::OpenCookieConfig@00023383-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ProvisioningDeliveryType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.MetadataSLOSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000e38e8-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000e5643-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SPID">
+                <LinkValue><XREF>Ref00003</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.EnableRequestedAuthnContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SendACSUrlInAuthnRequest">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.MaxTimeout">
+                <NumberValue>7200</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ValidateTargetURLDomain">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SSOServiceLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d0bfe-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SkewTime">
+                <NumberValue>600</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SupportedNameIDFormats">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SignAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.UserMappingLink">
+                <LinkValue>
+                    <XID>CA.FED::UserMapping@000214cb-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BackchannelConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@00019a82-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@0001ba6d-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableAuthnRequestRedirect">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.QPOverridesReqAuthnContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.PartnershipVersion">
+                <StringValue>12.5</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BaseURL">
+                <LinkValue><XREF>Ref00015</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RelayStateOverridesSsoTarget">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ArtResSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d29e0-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.StatusRedirectLink">
+                <LinkValue>
+                    <XID>CA.FED::StatusRedirects@000362f6-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.RelayStateOverridesSloConfirm">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AllowTransactionType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.NameIDMgtConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::NameIDMgtConfig@00038461-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SignArtifactResolve">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EncryptNameIDinSOAP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SessionType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AuthnContextClassRef">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.EnforceSingleUse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.ArtResServiceLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d29e0-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SyncAudit">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnablePost">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLOPOST">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.PolicyLink">
+                <LinkValue>
+                    <XID>CA.SM::Policy@04-00046f9c-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableArtifact">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BackchannelTimeout">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SignatureAlgo">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ReadAMRFromAssertionAttribute">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SPLocalLink">
+                <LinkValue>
+                    <XID>CA.FED::SPBase@000b9ecf-4b94-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.Name">
+                <StringValue>saml2artspidp</StringValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.TargetOpenCookieConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::OpenCookieConfig@000255c8-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AgentLink">
+                <LinkValue>
+                    <XID>CA.SM::Agent@01-000a5add-4dd3-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLOSOAP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.POSTSSOServiceLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000cedda-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.QPOverrideAllowCreate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SloSoapSignOption">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.IdPID">
+                <LinkValue><XREF>Ref00001</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RequireUserConsent">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.Status">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RequireSignedArtifactResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableAttributeMapping">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.AttributeRequesterConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::AttributeRequesterConfig@00034455-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ProtectionLevel">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.RequireEncryptedAssertion">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.UrlEncodeAttrCookieData">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.IdleTimeout">
+                <NumberValue>3600</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AllowCreate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SessionDrift">
+                <NumberValue>-1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SAMLSchemeLink">
+                <LinkValue>
+                    <XID>CA.SM::AuthScheme@0d-000a5cf7-4dd3-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.ProvisioningType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableAuthnRequestPost">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.AuthnContextUsage">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableECP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EncryptionConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::EncryptionConfig@0001d7ff-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.SSOSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000cedda-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000d0bfe-8e24-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::IdPPartnership.AttributeSourceLink">
+                <LinkValue>
+                    <XID>CA.FED::AttributeSource@0001f578-4c65-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::PartnershipBase@00043f28-4c65-14f1-8ce3-020e0af40000" -->
+        <Object Class="CA.FED::PartnershipBase" Xid="CA.FED::PartnershipBase@0003ea8d-4997-14f1-8ce3-020e0af40000" CreatedDateTime="2023-09-01T02:16:55" ModifiedDateTime="2023-09-01T07:30:57" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::SPPartnership.DelegatedAuthURL">
+                <StringValue> </StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSessionAssurance">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.PersistentCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.MetadataMNISvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0008a7c3-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.IdleTimeout">
+                <NumberValue>3600</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.DisableSignatureProcessing">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SPID">
+                <LinkValue><XREF>Ref00003</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.ValidateBaseURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SLOValidityDuration">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AllowOFCAuthnContextOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableIdentityMapping">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.IdPLocalLink">
+                <LinkValue>
+                    <XID>CA.FED::IdPBase@000409c6-4880-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.DomainLink">
+                <LinkValue>
+                    <XID>CA.SM::Domain@03-00044f3b-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AuthnContextType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.PostSigningOption">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLO">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.EnableIPD">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.OpenCookieConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::OpenCookieConfig@0002fe50-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.StatusRedirectLink">
+                <LinkValue>
+                    <XID>CA.FED::StatusRedirects@0003204d-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.MetadataSLOSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00084ca7-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00086c46-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00088a56-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SkewTime">
+                <NumberValue>600</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SupportedNameIDFormats">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.IgnoreRequestedAuthnContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.LegacyBCProtEnabled">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BackchannelConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@000181f0-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@0001a573-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableAuthnRequestRedirect">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BaseURL">
+                <LinkValue><XREF>Ref00004</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.MetadataArtResSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000787d8-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.ArtifactEncoding">
+                <StringValue>URL</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.NameIDFormat">
+                <StringValue>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AttributeAuthorityConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::AttributeAuthorityConfig@00020901-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.PolicyLink">
+                <LinkValue>
+                    <XID>CA.SM::Policy@04-000451e5-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SessionNotOnOrAfterType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableArtifact">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.PartnershipArtifactProtEnabled">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.PartnershipBCProtEnabled">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.RelayStateOverridesSloConfirm">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.PartnershipVersion">
+                <StringValue>12.5</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.GUIDCookieValidityDuration">
+                <NumberValue>180</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AllowTransactionType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.MetadataAttrSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0007a8a0-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.NameIDMgtConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::NameIDMgtConfig@00034453-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EncryptNameIDinSOAP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SPRemoteLink">
+                <LinkValue>
+                    <XID>CA.FED::SPBase@0001ac31-4941-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.MetadataSSOSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00074bb8-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000769af-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.EnforceForceAuthnNewSession">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AuthURL">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/redirectjsp/redirect.jsp</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableAuthnRequestPost">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.MaxTimeout">
+                <NumberValue>7200</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AcceptIncomingAcsUrl">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.UseStateCookie">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AuthnContextClassRef">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.BackchannelTimeout">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AuthenticationLevel">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SignatureAlgo">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.DelegatedAuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.RequireSignedArtifactResolve">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.Name">
+                <StringValue>saml2artidpsp</StringValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AgentLink">
+                <LinkValue>
+                    <XID>CA.SM::Agent@01-0003a58f-4afe-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.RequireSignedAuthnRequests">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLOSOAP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.LegacyArtifactProtEnabled">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AddOneTimeUseToAssn">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.CustomTimeout">
+                <NumberValue>60</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SloSoapSignOption">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.Status">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.EnforceForceAuthnSessionTimeouts">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.EnableUserConsent">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnablePost">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.ArtifactSigningOption">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.EnableNegAuthResp">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.LocalAuthenticationType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SessionDrift">
+                <NumberValue>-1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableSLOPOST">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AssConSvcsLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0007121b-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@00072efa-8cd3-14f1-9531-020f0af42020</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.IdPID">
+                <LinkValue><XREF>Ref00001</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.AllowCreate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EnableECP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.EncryptionConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::EncryptionConfig@0001c6df-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.ReuseSessionIndex">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SignArtifactResponse">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SecureAuthURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AuthenticationType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::PartnershipBase.SAMLVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.AttributeSourceLink">
+                <LinkValue>
+                    <XID>CA.FED::AttributeSource@0001e6ed-4997-14f1-8ce3-020e0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::SPPartnership.SSOValidityDuration">
+                <NumberValue>600</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::PartnershipBase@0003ea8d-4997-14f1-8ce3-020e0af40000" -->
+    </PolicyData>
+</XPS>
+<!-- 08:12:14 2023-09-01 -->

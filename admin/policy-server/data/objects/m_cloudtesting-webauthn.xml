@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0801.3099
+     by os:nobody
+     at 09:15:24 on 2024-10-14 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminpolicyserver-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <References>
+            <ReferenceValue ReferenceId="Ref00001">
+                <StringValue>52.140.82.167:1389</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00002">
+                <StringValue>o=security.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00003">
+                <StringValue>cn=Directory Manager</StringValue>
+            </ReferenceValue>
+            <ReferenceObject ReferenceId="Ref00004" ObjectClass="CA.SM::Agent">
+            <Xid>CA.SM::Agent@01-00019cac-2796-10b5-a390-01d7ac1f0000</Xid>
+            <Attribute Name="CA.SM::Agent.Name" Type="Identity">
+                <StringValue>k8sagent</StringValue>
+            </Attribute>
+            </ReferenceObject>
+        </References>
+        <Object Class="CA.SM::UserDirectory" Xid="CA.SM::UserDirectory@0e-0001837e-b5f5-170c-a64b-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Add">
+            <Property Name="CA.SM::UserDirectory.Username">
+                <LinkValue><XREF>Ref00003</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.EnableSecurityContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchTimeout">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Name">
+                <StringValue>k8stestUD-WebAuthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
+                <StringValue>firewall</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Namespace">
+                <StringValue>LDAP:</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupEnd">
+                <StringValue>)(objectclass=*))</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.RequireCredentials">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UniversalIDAttribute">
+                <StringValue>uid</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UseAdvancedAuthStore">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.CloseRelatedConnectionOnFailure">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Server">
+                <LinkValue><XREF>Ref00001</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SecureConnection">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchResults">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchRoot">
+                <LinkValue><XREF>Ref00002</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupStart">
+                <StringValue>(&amp;(uid=</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.PoolSize">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchScope">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Object Class="CA.EPM::AttributeMapping" Xid="CA.EPM::AttributeMapping@00052486-b681-170c-a64b-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                <Property Name="CA.EPM::AttributeMapping.Name">
+                    <StringValue>smwandevices</StringValue>
+                </Property>
+                <Property Name="CA.EPM::AttributeMapping.Definition">
+                    <StringValue>st</StringValue>
+                </Property>
+                <Property Name="CA.EPM::AttributeMapping.Flags">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.EPM::AttributeMapping.Type">
+                    <NumberValue>1</NumberValue>
+                </Property>
+            </Object><!-- Xid="CA.EPM::AttributeMapping@00052486-b681-170c-a64b-00030a2a0000" -->
+        </Object><!-- Xid="CA.SM::UserDirectory@0e-0001837e-b5f5-170c-a64b-00030a2a0000" -->
+        <Object Class="CA.SM::AuthScheme" Xid="CA.SM::AuthScheme@0d-0006217c-0f4c-1709-8af2-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:08:59" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::AuthScheme.Name">
+                <StringValue>k8sformsauthwauthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsTemplate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Type">
+                <NumberValue>4</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Param">
+                <StringValue>/siteminderagent/forms/login.fcc;ACS=0;REL=1</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsRadius">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IgnorePwCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Library">
+                <StringValue>smauthhtml</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsUsedbyAdmin">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowAuthLevelOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IPCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.SupportsValidateIdentity">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowSaveCreds">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Desc">
+                <StringValue>Forms auth for wenauthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Level">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.DyncPWDBlobMgmnt">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::AuthScheme@0d-0006217c-0f4c-1709-8af2-00030a2a0000" -->
+        <Object Class="CA.SM::AuthScheme" Xid="CA.SM::AuthScheme@0d-000ddf94-104f-1709-8af2-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:09:09" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::AuthScheme.Name">
+                <StringValue>k8smultifactorauth</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsTemplate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Type">
+                <NumberValue>37</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Param">
+                <StringValue>(CA.SM::AuthScheme@0d-0006217c-0f4c-1709-8af2-00030a2a0000;2;1);(CA.SM::AuthScheme@0d-0007216a-0f74-1709-8af2-00030a2a0000;2;2);authExpression=k8sformsauthwauthn AND k8swebauthn1;</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsRadius">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IgnorePwCheck">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Library">
+                <StringValue>NA</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsUsedbyAdmin">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowAuthLevelOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IPCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.SupportsValidateIdentity">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowSaveCreds">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.ExprString">
+                <StringValue>&lt;@ lib=&quot;smauthextattrresponse&quot; func=&quot;webAuthn&quot; param=&quot;wanRegistration=true;user_authlookup=uid;&quot; @&gt;</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Desc">
+                <StringValue>Multifactor auth for webauthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Level">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.DyncPWDBlobMgmnt">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::AuthScheme@0d-000ddf94-104f-1709-8af2-00030a2a0000" -->
+        <Object Class="CA.SM::AuthScheme" Xid="CA.SM::AuthScheme@0d-0007216a-0f74-1709-8af2-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:09:18" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::AuthScheme.Name">
+                <StringValue>k8swebauthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsTemplate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Type">
+                <NumberValue>41</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Param">
+                <StringValue>com.ca.sm.webauthn.SmWebAuthnAuthScheme authenticatorAttachment=all;RPID=cloudssoagtesting.ca.com;RPName=party1;maxDevices=3;authenticatorTimeout=60;attestation=none;residentKey=preferred;userVerification=preferred;allowedOrigins=https://cloudssoagtesting.ca.com;txAuthSimple=;relTarget=true;wanWebServer=;wanWebServerPort=;wanTarget=/siteminderagent/forms/webauthn.fcc</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsRadius">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IgnorePwCheck">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Library">
+                <StringValue>smjavaapi</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsUsedbyAdmin">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowAuthLevelOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IPCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.SupportsValidateIdentity">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowSaveCreds">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Desc">
+                <StringValue>webauthn</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Level">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.DyncPWDBlobMgmnt">
+                <NumberValue>0</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::AuthScheme@0d-0007216a-0f74-1709-8af2-00030a2a0000" -->
+        <Object Class="CA.SM::Domain" Xid="CA.SM::Domain@03-00015921-19fc-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:10:17" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>k8swebauthdomain</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-0001837e-b5f5-170c-a64b-00030a2a0000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-0006d88b-1a33-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:10:17" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>k8sformauthrealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-0006217c-0f4c-1709-8af2-00030a2a0000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XREF>Ref00004</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/formsauthwebauthn</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-0007ade1-1aa1-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:12:33" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>k8sformsrule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-0007ade1-1aa1-1709-988c-00030a2a0000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-0006d88b-1a33-1709-988c-00030a2a0000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-0000bfc9-1b05-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:10:17" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>k8smultifactorrealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-000ddf94-104f-1709-8af2-00030a2a0000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XREF>Ref00004</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/registration</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000d377c-1b55-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:13:15" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>k8smultifactorrule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000d377c-1b55-1709-988c-00030a2a0000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-0000bfc9-1b05-1709-988c-00030a2a0000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-000613e6-1bac-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T09:10:53" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>k8swebauthrealm</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-0007216a-0f74-1709-8af2-00030a2a0000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XREF>Ref00004</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/webauthn</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000da72b-1bcb-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>k8swebauthnrule</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                        <StringValue>Put</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000da72b-1bcb-1709-988c-00030a2a0000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-000613e6-1bac-1709-988c-00030a2a0000" -->
+            <Object Class="CA.SM::Policy" Xid="CA.SM::Policy@04-000e3f27-1bfd-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>k8swebauthnpolicy</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdTimeDelay">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-0001834e-1c22-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000d377c-1b55-1709-988c-00030a2a0000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-0001834e-1c22-1709-988c-00030a2a0000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-00017e68-1c22-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-0007ade1-1aa1-1709-988c-00030a2a0000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-00017e68-1c22-1709-988c-00030a2a0000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000187c4-1c22-1709-988c-00030a2a0000" CreatedDateTime="2024-10-14T06:29:57" ModifiedDateTime="2024-10-14T06:29:57" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000da72b-1bcb-1709-988c-00030a2a0000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000187c4-1c22-1709-988c-00030a2a0000" -->
+                <Object Class="CA.SM::UserPolicy" Xid="CA.SM::UserPolicy@0f-0003d38e-deb4-170c-91c4-00020a2c0000" CreatedDateTime="2024-10-14T09:04:56" ModifiedDateTime="2024-10-14T09:04:56" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-0001837e-b5f5-170c-a64b-00030a2a0000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::UserPolicy@0f-0003d38e-deb4-170c-91c4-00020a2c0000" -->
+            </Object><!-- Xid="CA.SM::Policy@04-000e3f27-1bfd-1709-988c-00030a2a0000" -->
+        </Object><!-- Xid="CA.SM::Domain@03-00015921-19fc-1709-988c-00030a2a0000" -->
+    </PolicyData>
+</XPS>
+<!-- 09:15:24 2024-10-14 -->

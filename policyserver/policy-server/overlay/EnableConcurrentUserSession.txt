@@ -1,0 +1,12 @@
+!Select SiteMinder policy store
+SM
+!Enter parameter name
+EnableConcurrentUserSessionLimit
+!Change value - toggles boolean FALSE to TRUE automatically
+C
+!Quit parameter section
+Q
+!Quit SM section
+Q
+!Quit XPSConfig
+Q

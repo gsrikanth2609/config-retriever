@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0700.3057
+     by os:nobody
+     at 10:14:01 on 2023-07-31 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminps-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@0005215c-639d-14c7-b3f8-000c0af40000" CreatedDateTime="2023-07-31T07:32:45" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>77BD0D6CDB36F91AEA210FC4F058D30D</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=BE,O=GlobalSign nv-sa,OU=Root CA,CN=GlobalSign Root CA</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>C=US,O=Google Trust Services LLC,CN=GTS Root R1</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsF
+ADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQ
+MA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENB
+MB4XDTIwMDYxOTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMC
+VVMxIjAgBgNVBAoTGUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNV
+BAMTC0dUUyBSb290IFIxMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC
+AgEAthECix7joXebO9y/lD63ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OM
+S/kr9rH5zoQdsfnFl97vufKj6bwSiV6nqlKr+CMny6SxnGPb15l+8Ape62im
+9MZaRw1NEDPjTrETo8gYbEvs/AmQ351kKSUjB6G00j0uYODP0gmHu81I8E3C
+wnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZDrXYfiYaRQM9sHmklCitD38m
+5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zkj5ZPaK49l8KEj8C8QMAL
+XL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5cuHKZPfmghCN6J3C
+ioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esWCruOC7XFxYpV
+q9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499iYH6TKX/
+1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35EiEua+
++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6
+zO0b9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQE
+AwIBhjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1Jm
+LO/wiRNxPjAfBgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggr
+BgEFBQcBAQRUMFIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29n
+L2dzcjEwKQYIKwYBBQUHMAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEu
+Y3J0MDIGA1UdHwQrMCkwJ6AloCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3Ny
+MS9nc3IxLmNybDA7BgNVHSAENDAyMAgGBmeBDAECATAIBgZngQwBAgIwDQYL
+KwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIFAwMwDQYJKoZIhvcNAQELBQADggEB
+ADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9NR3t5P+T4Vxfq7vqfM/b5A3R
+i1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9WprKASOshIArAoyZl+tJ
+aox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw9U5pCZEt4Wi4wStz
+6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy+qduBmpvvYuR
+7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvid0lIKO2d
+1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>google-com-root</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@0005215c-639d-14c7-b3f8-000c0af40000" -->
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@000c2dc3-63b5-14c7-b3f8-000c0af40000" CreatedDateTime="2023-07-31T07:33:09" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>040000000001154B5AC394</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=BE,O=GlobalSign nv-sa,OU=Root CA,CN=GlobalSign Root CA</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>C=BE,O=GlobalSign nv-sa,OU=Root CA,CN=GlobalSign Root CA</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIDdTCCAl2gAwIBAgILBAAAAAABFUtaw5QwDQYJKoZIhvcNAQEFBQAwVzEL
+MAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExEDAOBgNV
+BAsTB1Jvb3QgQ0ExGzAZBgNVBAMTEkdsb2JhbFNpZ24gUm9vdCBDQTAeFw05
+ODA5MDExMjAwMDBaFw0yODAxMjgxMjAwMDBaMFcxCzAJBgNVBAYTAkJFMRkw
+FwYDVQQKExBHbG9iYWxTaWduIG52LXNhMRAwDgYDVQQLEwdSb290IENBMRsw
+GQYDVQQDExJHbG9iYWxTaWduIFJvb3QgQ0EwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDaDuaZjc6j40+Kfvvxi4Mla+pIH/EqsLmVEQS98GPR
+4mdmzxzdzxtIK+6NiY6arymAZavpxy0Sy6scTHAHoT0KMM0VjU/43dSMUBUc
+71DuxC73/OlS8pF94G3VNTCOXkNz8kHp1Wrjsok6Vjk4bwY8iGlbKk3Fp1S4
+bInMm/k8yuX9ifUSPJJ4ltbcdG6TRGHRjcdGsnUOhugZitVtbNV4FpWi6cgK
+OOvyJBNPc1STE4U6G7weNLWLBYy5d4ux2x8gkasJU26Qzns3dLlwR5EiUWMW
+ea6xrkEmCMgZK9FGqkjWZCrXgzT/LCrBbBlDSgeF59N89iFo7+ryUp9/k5DP
+AgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0G
+A1UdDgQWBBRge2YaRQ2XyolQL30EzTSo//z9SzANBgkqhkiG9w0BAQUFAAOC
+AQEA1nPnfE920I2/7LqivjTFKDK1fPxsnCwrvQmeU79rXqoRSLblCKOzyj1h
+TdNGCbM+w6DjY1Ub8rrvrTnhQ7k4o+YviiY776BQVvnGCv04zcQLcFGUl5gE
+38NflNUVyRRBnMRddWQVDf9VMOyGj/8N7yy5Y0b2qvzfvGn9LhJIZJrglfCm
+7ymPAbEVtQwdpf5pLGkkeB6zpxxxYu7KyJesF12KwvhHhm4qxFYxldBniYUr
++WymXUadDKqC5JlR3XC321Y9YeRq4VzW9v493kHMB65jUr9TU/Qr6cf9tveC
+X4XSQRjbgbMEHMUfpIBvFSDJ3gyICh3WZlXi/EjJKSZp4A==
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>google-com-top</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@000c2dc3-63b5-14c7-b3f8-000c0af40000" -->
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@000c7c35-6381-14c7-b3f8-000c0af40000" CreatedDateTime="2023-07-31T07:32:17" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>0203BC53596B34C718F5015066</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=US,O=Google Trust Services LLC,CN=GTS Root R1</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>C=US,O=Google Trust Services LLC,CN=GTS CA 1C3</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBH
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2Vz
+IExMQzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcN
+MjcwOTMwMDAwMDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xl
+IFRydXN0IFNlcnZpY2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7
+ZYIl/ejLa6T/belaI+KZ9hzpkgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxX
+TGZok3c3VVP+ORBNtzS7XyV3NzsXlOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXd
+QTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcmBA2o/X3KLu/qSHw3TT8An4Pf73WE
+LnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKAgOtjGDxQSYflispfGStZloEA
+oPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwLtmsTDIwZKxeWmLnwi/ag
+J7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1UdDwEB/wQEAwIBhjAd
+BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB
+/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYDVR0jBBgw
+FoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYGCCsG
+AQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
+AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1Ud
+HwQtMCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEu
+Y3JsMFcGA1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxo
+dHRwczovL3BraS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwB
+AgIwDQYJKoZIhvcNAQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV
+/d9AEQNMwkYUuxQkq/BQcSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpST
+ld9brmYZCwKWnvy15xBpPnrLRklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSS
+IYKCGvGjRFsqUBITTcFTNvNCCK9U+o53UxtkOCcXCb1YyRt8OS1b887U7Zfb
+FAO/CVMkH8IMBHmYJvJh8VNS/UKMG2YrPxWhu//2m+OBmgEGcYk1KCTd4b3r
+GS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IERlQCh9BIiAfq0g3GvjLeMcySs
+N1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGsYye5TBeg2vZzFb8q3o/z
+pWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjOz23HFtz30dZGm6fK
+a+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJGAJ2xDx8hcFH1
+mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKwjuDEI/9b
+fU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl1IXN
+Dw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>google-com1</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@000c7c35-6381-14c7-b3f8-000c0af40000" -->
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@0005805c-6365-14c7-b3f8-000c0af40000" CreatedDateTime="2023-07-31T07:31:49" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>27D289988C526B9009B854630582BC06</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=US,O=Google Trust Services LLC,CN=GTS CA 1C3</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>CN=*.google.com</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIOOjCCDSKgAwIBAgIQJ9KJmIxSa5AJuFRjBYK8BjANBgkqhkiG9w0BAQsF
+ADBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
+Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMzA3MTAwODE2MTha
+Fw0yMzEwMDIwODE2MTdaMBcxFTATBgNVBAMMDCouZ29vZ2xlLmNvbTBZMBMG
+ByqGSM49AgEGCCqGSM49AwEHA0IABCfJBhdzcKmiM+BTM+x3YvWyLHl6s/gP
+dbddDNSJEBFDvqGznyP+vUAfMuR+IuuaD03j4Z8AFd5xJme5f0+I+Iqjggwc
+MIIMGDAOBgNVHQ8BAf8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYD
+VR0TAQH/BAIwADAdBgNVHQ4EFgQUSiQByzdH5RbEeCdfw+l0eSV++dUwHwYD
+VR0jBBgwFoAUinR/r4XN7pXNPZzQ4kYU83E1HScwagYIKwYBBQUHAQEEXjBc
+MCcGCCsGAQUFBzABhhtodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHMxYzMwMQYI
+KwYBBQUHMAKGJWh0dHA6Ly9wa2kuZ29vZy9yZXBvL2NlcnRzL2d0czFjMy5k
+ZXIwggnNBgNVHREEggnEMIIJwIIMKi5nb29nbGUuY29tghYqLmFwcGVuZ2lu
+ZS5nb29nbGUuY29tggkqLmJkbi5kZXaCFSoub3JpZ2luLXRlc3QuYmRuLmRl
+doISKi5jbG91ZC5nb29nbGUuY29tghgqLmNyb3dkc291cmNlLmdvb2dsZS5j
+b22CGCouZGF0YWNvbXB1dGUuZ29vZ2xlLmNvbYILKi5nb29nbGUuY2GCCyou
+Z29vZ2xlLmNsgg4qLmdvb2dsZS5jby5pboIOKi5nb29nbGUuY28uanCCDiou
+Z29vZ2xlLmNvLnVrgg8qLmdvb2dsZS5jb20uYXKCDyouZ29vZ2xlLmNvbS5h
+dYIPKi5nb29nbGUuY29tLmJygg8qLmdvb2dsZS5jb20uY2+CDyouZ29vZ2xl
+LmNvbS5teIIPKi5nb29nbGUuY29tLnRygg8qLmdvb2dsZS5jb20udm6CCyou
+Z29vZ2xlLmRlggsqLmdvb2dsZS5lc4ILKi5nb29nbGUuZnKCCyouZ29vZ2xl
+Lmh1ggsqLmdvb2dsZS5pdIILKi5nb29nbGUubmyCCyouZ29vZ2xlLnBsggsq
+Lmdvb2dsZS5wdIISKi5nb29nbGVhZGFwaXMuY29tgg8qLmdvb2dsZWFwaXMu
+Y26CESouZ29vZ2xldmlkZW8uY29tggwqLmdzdGF0aWMuY26CECouZ3N0YXRp
+Yy1jbi5jb22CD2dvb2dsZWNuYXBwcy5jboIRKi5nb29nbGVjbmFwcHMuY26C
+EWdvb2dsZWFwcHMtY24uY29tghMqLmdvb2dsZWFwcHMtY24uY29tggxna2Vj
+bmFwcHMuY26CDiouZ2tlY25hcHBzLmNughJnb29nbGVkb3dubG9hZHMuY26C
+FCouZ29vZ2xlZG93bmxvYWRzLmNughByZWNhcHRjaGEubmV0LmNughIqLnJl
+Y2FwdGNoYS5uZXQuY26CEHJlY2FwdGNoYS1jbi5uZXSCEioucmVjYXB0Y2hh
+LWNuLm5ldIILd2lkZXZpbmUuY26CDSoud2lkZXZpbmUuY26CEWFtcHByb2pl
+Y3Qub3JnLmNughMqLmFtcHByb2plY3Qub3JnLmNughFhbXBwcm9qZWN0Lm5l
+dC5jboITKi5hbXBwcm9qZWN0Lm5ldC5jboIXZ29vZ2xlLWFuYWx5dGljcy1j
+bi5jb22CGSouZ29vZ2xlLWFuYWx5dGljcy1jbi5jb22CF2dvb2dsZWFkc2Vy
+dmljZXMtY24uY29tghkqLmdvb2dsZWFkc2VydmljZXMtY24uY29tghFnb29n
+bGV2YWRzLWNuLmNvbYITKi5nb29nbGV2YWRzLWNuLmNvbYIRZ29vZ2xlYXBp
+cy1jbi5jb22CEyouZ29vZ2xlYXBpcy1jbi5jb22CFWdvb2dsZW9wdGltaXpl
+LWNuLmNvbYIXKi5nb29nbGVvcHRpbWl6ZS1jbi5jb22CEmRvdWJsZWNsaWNr
+LWNuLm5ldIIUKi5kb3VibGVjbGljay1jbi5uZXSCGCouZmxzLmRvdWJsZWNs
+aWNrLWNuLm5ldIIWKi5nLmRvdWJsZWNsaWNrLWNuLm5ldIIOZG91YmxlY2xp
+Y2suY26CECouZG91YmxlY2xpY2suY26CFCouZmxzLmRvdWJsZWNsaWNrLmNu
+ghIqLmcuZG91YmxlY2xpY2suY26CEWRhcnRzZWFyY2gtY24ubmV0ghMqLmRh
+cnRzZWFyY2gtY24ubmV0gh1nb29nbGV0cmF2ZWxhZHNlcnZpY2VzLWNuLmNv
+bYIfKi5nb29nbGV0cmF2ZWxhZHNlcnZpY2VzLWNuLmNvbYIYZ29vZ2xldGFn
+c2VydmljZXMtY24uY29tghoqLmdvb2dsZXRhZ3NlcnZpY2VzLWNuLmNvbYIX
+Z29vZ2xldGFnbWFuYWdlci1jbi5jb22CGSouZ29vZ2xldGFnbWFuYWdlci1j
+bi5jb22CGGdvb2dsZXN5bmRpY2F0aW9uLWNuLmNvbYIaKi5nb29nbGVzeW5k
+aWNhdGlvbi1jbi5jb22CJCouc2FmZWZyYW1lLmdvb2dsZXN5bmRpY2F0aW9u
+LWNuLmNvbYIWYXBwLW1lYXN1cmVtZW50LWNuLmNvbYIYKi5hcHAtbWVhc3Vy
+ZW1lbnQtY24uY29tggtndnQxLWNuLmNvbYINKi5ndnQxLWNuLmNvbYILZ3Z0
+Mi1jbi5jb22CDSouZ3Z0Mi1jbi5jb22CCzJtZG4tY24ubmV0gg0qLjJtZG4t
+Y24ubmV0ghRnb29nbGVmbGlnaHRzLWNuLm5ldIIWKi5nb29nbGVmbGlnaHRz
+LWNuLm5ldIIMYWRtb2ItY24uY29tgg4qLmFkbW9iLWNuLmNvbYIUZ29vZ2xl
+c2FuZGJveC1jbi5jb22CFiouZ29vZ2xlc2FuZGJveC1jbi5jb22CHiouc2Fm
+ZW51cC5nb29nbGVzYW5kYm94LWNuLmNvbYINKi5nc3RhdGljLmNvbYIUKi5t
+ZXRyaWMuZ3N0YXRpYy5jb22CCiouZ3Z0MS5jb22CESouZ2NwY2RuLmd2dDEu
+Y29tggoqLmd2dDIuY29tgg4qLmdjcC5ndnQyLmNvbYIQKi51cmwuZ29vZ2xl
+LmNvbYIWKi55b3V0dWJlLW5vY29va2llLmNvbYILKi55dGltZy5jb22CC2Fu
+ZHJvaWQuY29tgg0qLmFuZHJvaWQuY29tghMqLmZsYXNoLmFuZHJvaWQuY29t
+ggRnLmNuggYqLmcuY26CBGcuY2+CBiouZy5jb4IGZ29vLmdsggp3d3cuZ29v
+LmdsghRnb29nbGUtYW5hbHl0aWNzLmNvbYIWKi5nb29nbGUtYW5hbHl0aWNz
+LmNvbYIKZ29vZ2xlLmNvbYISZ29vZ2xlY29tbWVyY2UuY29tghQqLmdvb2ds
+ZWNvbW1lcmNlLmNvbYIIZ2dwaHQuY26CCiouZ2dwaHQuY26CCnVyY2hpbi5j
+b22CDCoudXJjaGluLmNvbYIIeW91dHUuYmWCC3lvdXR1YmUuY29tgg0qLnlv
+dXR1YmUuY29tghR5b3V0dWJlZWR1Y2F0aW9uLmNvbYIWKi55b3V0dWJlZWR1
+Y2F0aW9uLmNvbYIPeW91dHViZWtpZHMuY29tghEqLnlvdXR1YmVraWRzLmNv
+bYIFeXQuYmWCByoueXQuYmWCGmFuZHJvaWQuY2xpZW50cy5nb29nbGUuY29t
+ghtkZXZlbG9wZXIuYW5kcm9pZC5nb29nbGUuY26CHGRldmVsb3BlcnMuYW5k
+cm9pZC5nb29nbGUuY26CGHNvdXJjZS5hbmRyb2lkLmdvb2dsZS5jbjAhBgNV
+HSAEGjAYMAgGBmeBDAECATAMBgorBgEEAdZ5AgUDMDwGA1UdHwQ1MDMwMaAv
+oC2GK2h0dHA6Ly9jcmxzLnBraS5nb29nL2d0czFjMy96ZEFUdDBFeF9Gay5j
+cmwwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdQCzc3cH4YRQ+GOG1gWp3BEJ
+SnktsWcMC4fc8AMOeTalmgAAAYk/FnNaAAAEAwBGMEQCIDM3xMK6cs1o65Qo
+bRPwg2fdyxpJCrw0bMWivdGpuGMQAiA25vdHomhybwI5KBVTVAW8mYq1QeNP
+rll/bJvuH7tZqAB2AHoyjFTYty22IOo44FIe6YQWcDIThU070ivBOlejUutS
+AAABiT8WdBUAAAQDAEcwRQIgcTyPmJrDYdnwNGvdxfqgLLNTLEa457aIhrZM
+ii025gICIQDBBi8MjhAzilUHZCne3cXdc3ElOLdIHEe/hUiZ7RZ2OzANBgkq
+hkiG9w0BAQsFAAOCAQEAI/00oe3wHdXBkLGF9q+Ejp30mQqL4Lm1Mbc9pUtB
+G5u8Ta6GK6F01dRsxn6bT/bGZjNMaSLagE8xiuEKyDDUi7NM44AVXKZbyQU6
+RNPwjS+L55/PLnYKNIrctvfzSY6EoOZX4dPc4Zy6Aebcd/ubjKQhKU9o1E4L
+iRAv7yUcR1FJG21HO9fxl65aHquhYN+l5yoO36XfCDM39rfomufk/gOiHtP9
+Eqx7h/fbPHlRWb5L4JkyEeBqRNY8p7m/r2wQpMErlwV4kfIgVucOzMINtGOX
+Z4zA4LZ9qoOf9t/AZCHB3M7amRKlj6SRaFgEvGiqVOGvFUAP14SEhuXVQazC
+nA==
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>google-com</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@0005805c-6365-14c7-b3f8-000c0af40000" -->
+    </PolicyData>
+</XPS>
+<!-- 10:14:02 2023-07-31 -->

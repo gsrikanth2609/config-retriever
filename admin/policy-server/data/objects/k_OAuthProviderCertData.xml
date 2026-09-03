@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0801.3099
+     by os:nobody
+     at 06:16:43 on 2024-10-07 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminpolicyserver-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@000d55e7-5b89-1701-a46d-00020a2c0000" CreatedDateTime="2024-10-05T15:30:17" ModifiedDateTime="2024-10-05T15:30:17" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>00E09D43995C6D29D2</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>C=US,ST=Massachusetts,L=Framingham,O=CA,OU=QA,CN=Defaultenterpriseprivatekey,E=junk@maple.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Device">
+                <StringValue>Java</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrivateKey" Sensitive="Yes">
+                <StringValue>0:0,-45,-10,-82,-56,-52,-79,-95,-92,-59,110,-36,-71,-91,64,47,-60,-39,-87,-20,-8,-27,-115,95,30,-121,86,-66,17,-73,57,-121,-34,122,94,28,-108,-43,125,125,28,126,-55,-1,-103,-110,-69,44,-15,-40,-42,122,39,127,-81,118,54,42,-88,-108,-82,38,45,-97,-42,-17,109,19,-110,18,19,-107,83,107,-74,-5,-54,67,29,-56,114,-66,-14,-84,-126,28,-47,29,-22,-76,104,-83,30,-18,84,-54,-33,29,-22,33,-22,-51,58,-22,113,-84,30,36,105,-55,-118,76,-87,-82,-10,-96,43,98,10,-45,35,-5,-25,-27,93,36,-48,123,89,;1,0,1,;61,93,-24,16,-98,-94,-74,-25,-37,121,83,82,52,51,-73,32,-56,-37,-41,-115,-33,-9,-28,24,20,-102,-38,-128,-118,-119,-113,122,-85,-10,-33,83,127,-45,-53,11,26,-14,36,-100,51,-51,25,32,19,-27,84,-116,102,-3,71,-66,58,-17,127,-52,67,-91,101,-26,-17,13,-11,-120,63,-75,-122,-72,-123,122,68,-117,127,86,-20,9,14,-114,31,-49,96,-42,-3,116,-62,111,-58,24,13,73,118,-31,-2,107,-76,64,-36,28,-126,91,41,61,-90,118,-23,-66,-9,-21,-64,-73,97,-110,40,57,-78,52,90,82,-125,-28,-70,-66,-114,97,;0,-1,22,6,-34,92,57,82,16,-73,0,25,119,-61,-51,54,-94,42,-61,92,55,8,-113,-93,73,44,-103,97,109,17,84,-50,-88,21,-54,87,108,-115,12,10,-112,-38,-97,-1,-66,-122,-34,-96,-69,-13,-32,-109,-67,2,-29,54,-97,-54,119,76,121,-4,106,62,-51,;0,-44,-71,26,69,-76,-92,46,47,104,-46,-21,-94,-113,-80,67,-85,36,-57,24,106,95,68,99,-85,-76,125,17,63,-56,51,-102,-105,-43,115,-90,42,41,-88,-28,37,106,-9,-19,101,-59,-27,-107,-102,87,58,-101,-64,62,-86,-23,66,81,62,27,80,7,-28,-106,-67,;95,-87,-31,21,-113,60,-89,-4,64,-59,54,-57,-27,-108,-106,-126,-90,-54,-15,80,106,83,-124,7,51,68,-86,118,-2,-30,-15,69,-76,54,88,39,11,-106,-110,119,-44,-91,-32,-127,-111,-114,-8,116,-60,119,90,-80,-83,-34,-116,99,-52,-56,-124,-45,-46,-57,-3,-103,;0,-65,47,-42,83,11,-11,-5,-92,-108,-101,-19,56,95,-40,86,25,61,-90,-53,100,-33,86,-62,22,18,-45,-51,106,-5,-18,-107,101,29,109,33,-51,7,64,74,60,-17,21,1,-126,-43,8,113,27,20,-121,18,113,8,97,-25,-33,-72,-47,15,15,48,-24,-36,41,;0,-97,75,53,112,-43,116,-35,78,-16,-68,89,-86,103,124,62,15,57,99,-126,-108,68,109,-72,10,3,-7,-53,-74,-82,-90,-41,8,102,126,-128,125,104,115,127,-63,-72,-11,-4,34,-71,16,119,-128,-83,32,67,-24,65,48,120,102,-87,51,-35,-90,-50,62,91,-1,;</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIICnDCCAgUCCQDgnUOZXG0p0jANBgkqhkiG9w0BAQUFADCBhzELMAkGA1UE
+BhMCVVMxFjAUBgNVBAgTDU1hc3NhY2h1c2V0dHMxEzARBgNVBAcTCkZyYW1p
+bmdoYW0xCzAJBgNVBAoTAkNBMQswCQYDVQQLEwJRQTEPMA0GA1UEAxMGQ0FS
+b290MSAwHgYJKoZIhvcNAQkBFhFqdW5rQG1hcGxlLmNhLmNvbTAeFw0xNTEx
+MjMwOTQ2NTBaFw0yNTExMjAwOTQ2NTBaMIGcMQswCQYDVQQGEwJVUzEWMBQG
+A1UECBMNTWFzc2FjaHVzZXR0czETMBEGA1UEBxMKRnJhbWluZ2hhbTELMAkG
+A1UEChMCQ0ExCzAJBgNVBAsTAlFBMSQwIgYDVQQDExtEZWZhdWx0ZW50ZXJw
+cmlzZXByaXZhdGVrZXkxIDAeBgkqhkiG9w0BCQEWEWp1bmtAbWFwbGUuY2Eu
+Y29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDT9q7IzLGhpMVu3Lml
+QC/E2ans+OWNXx6HVr4RtzmH3npeHJTVfX0cfsn/mZK7LPHY1nonf692Niqo
+lK4mLZ/W720TkhITlVNrtvvKQx3Icr7yrIIc0R3qtGitHu5Uyt8d6iHqzTrq
+caweJGnJikyprvagK2IK0yP75+VdJNB7WQIDAQABMA0GCSqGSIb3DQEBBQUA
+A4GBAIVrpjxfeKdNmnH5n8XsfdVIjz4EuZEOO+bMSHvFYYwBS37BkOLm+Vno
+6/cItgBlYga6hfHXVaONV1zoN0/tBZDe9MbYNk1gFAW8GnMmqv/TW8Ly4FXo
+I3ZMyyuZdgfJAkF7PBkcSf0oFU3sv2y/sf1TpysAYzpuAsxmSayb8h2V
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>defaultenterpriseprivatekey</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=US,ST=Massachusetts,L=Framingham,O=CA,OU=QA,CN=CARoot,E=junk@maple.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@000d55e7-5b89-1701-a46d-00020a2c0000" -->
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@000c3375-555a-16fd-9b26-00020a2c0000" CreatedDateTime="2024-10-02T14:14:50" ModifiedDateTime="2024-10-02T14:14:50" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>00E09D43995C6D29D0</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>C=US,ST=Massachusetts,L=Framingham,O=CA,OU=QA,CN=DsigningCert,E=junk@maple.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Device">
+                <StringValue>Java</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrivateKey" Sensitive="Yes">
+                <StringValue>0:0,-45,-10,-82,-56,-52,-79,-95,-92,-59,110,-36,-71,-91,64,47,-60,-39,-87,-20,-8,-27,-115,95,30,-121,86,-66,17,-73,57,-121,-34,122,94,28,-108,-43,125,125,28,126,-55,-1,-103,-110,-69,44,-15,-40,-42,122,39,127,-81,118,54,42,-88,-108,-82,38,45,-97,-42,-17,109,19,-110,18,19,-107,83,107,-74,-5,-54,67,29,-56,114,-66,-14,-84,-126,28,-47,29,-22,-76,104,-83,30,-18,84,-54,-33,29,-22,33,-22,-51,58,-22,113,-84,30,36,105,-55,-118,76,-87,-82,-10,-96,43,98,10,-45,35,-5,-25,-27,93,36,-48,123,89,;1,0,1,;61,93,-24,16,-98,-94,-74,-25,-37,121,83,82,52,51,-73,32,-56,-37,-41,-115,-33,-9,-28,24,20,-102,-38,-128,-118,-119,-113,122,-85,-10,-33,83,127,-45,-53,11,26,-14,36,-100,51,-51,25,32,19,-27,84,-116,102,-3,71,-66,58,-17,127,-52,67,-91,101,-26,-17,13,-11,-120,63,-75,-122,-72,-123,122,68,-117,127,86,-20,9,14,-114,31,-49,96,-42,-3,116,-62,111,-58,24,13,73,118,-31,-2,107,-76,64,-36,28,-126,91,41,61,-90,118,-23,-66,-9,-21,-64,-73,97,-110,40,57,-78,52,90,82,-125,-28,-70,-66,-114,97,;0,-1,22,6,-34,92,57,82,16,-73,0,25,119,-61,-51,54,-94,42,-61,92,55,8,-113,-93,73,44,-103,97,109,17,84,-50,-88,21,-54,87,108,-115,12,10,-112,-38,-97,-1,-66,-122,-34,-96,-69,-13,-32,-109,-67,2,-29,54,-97,-54,119,76,121,-4,106,62,-51,;0,-44,-71,26,69,-76,-92,46,47,104,-46,-21,-94,-113,-80,67,-85,36,-57,24,106,95,68,99,-85,-76,125,17,63,-56,51,-102,-105,-43,115,-90,42,41,-88,-28,37,106,-9,-19,101,-59,-27,-107,-102,87,58,-101,-64,62,-86,-23,66,81,62,27,80,7,-28,-106,-67,;95,-87,-31,21,-113,60,-89,-4,64,-59,54,-57,-27,-108,-106,-126,-90,-54,-15,80,106,83,-124,7,51,68,-86,118,-2,-30,-15,69,-76,54,88,39,11,-106,-110,119,-44,-91,-32,-127,-111,-114,-8,116,-60,119,90,-80,-83,-34,-116,99,-52,-56,-124,-45,-46,-57,-3,-103,;0,-65,47,-42,83,11,-11,-5,-92,-108,-101,-19,56,95,-40,86,25,61,-90,-53,100,-33,86,-62,22,18,-45,-51,106,-5,-18,-107,101,29,109,33,-51,7,64,74,60,-17,21,1,-126,-43,8,113,27,20,-121,18,113,8,97,-25,-33,-72,-47,15,15,48,-24,-36,41,;0,-97,75,53,112,-43,116,-35,78,-16,-68,89,-86,103,124,62,15,57,99,-126,-108,68,109,-72,10,3,-7,-53,-74,-82,-90,-41,8,102,126,-128,125,104,115,127,-63,-72,-11,-4,34,-71,16,119,-128,-83,32,67,-24,65,48,120,102,-87,51,-35,-90,-50,62,91,-1,;</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIICjTCCAfYCCQDgnUOZXG0p0DANBgkqhkiG9w0BAQUFADCBhzELMAkGA1UE
+BhMCVVMxFjAUBgNVBAgTDU1hc3NhY2h1c2V0dHMxEzARBgNVBAcTCkZyYW1p
+bmdoYW0xCzAJBgNVBAoTAkNBMQswCQYDVQQLEwJRQTEPMA0GA1UEAxMGQ0FS
+b290MSAwHgYJKoZIhvcNAQkBFhFqdW5rQG1hcGxlLmNhLmNvbTAeFw0xNTEx
+MjAxMjQ4NTZaFw0yNTExMTcxMjQ4NTZaMIGNMQswCQYDVQQGEwJVUzEWMBQG
+A1UECBMNTWFzc2FjaHVzZXR0czETMBEGA1UEBxMKRnJhbWluZ2hhbTELMAkG
+A1UEChMCQ0ExCzAJBgNVBAsTAlFBMRUwEwYDVQQDEwxEc2lnbmluZ0NlcnQx
+IDAeBgkqhkiG9w0BCQEWEWp1bmtAbWFwbGUuY2EuY29tMIGfMA0GCSqGSIb3
+DQEBAQUAA4GNADCBiQKBgQDT9q7IzLGhpMVu3LmlQC/E2ans+OWNXx6HVr4R
+tzmH3npeHJTVfX0cfsn/mZK7LPHY1nonf692NiqolK4mLZ/W720TkhITlVNr
+tvvKQx3Icr7yrIIc0R3qtGitHu5Uyt8d6iHqzTrqcaweJGnJikyprvagK2IK
+0yP75+VdJNB7WQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAL1HVyaSAtJhoQMY
+SbwVsmaquY33/Z+YTBcjn+oL3erHBNKiT7+ETv5Qcs68h6b6qcbZ31SEWoBU
+wSGQD9Myn6m+cqowrn8HeuUNGJm6JDq+Bp1szwA3H6MD6wOUcU/J3Z6D3nah
+nIOpzKmAw13Yb+ss/nucD9O2rUjyG08a265F
+</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>dsigningcert</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>C=US,ST=Massachusetts,L=Framingham,O=CA,OU=QA,CN=CARoot,E=junk@maple.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@000c3375-555a-16fd-9b26-00020a2c0000" -->
+        <Object Class="CA.FED::Certificate" Xid="CA.FED::Certificate@000d752d-5b8d-1701-a46d-00020a2c0000" CreatedDateTime="2024-10-05T15:30:21" ModifiedDateTime="2024-10-05T15:30:21" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Certificate.CertificateGUID">
+                <LinkValue>
+                    <XID>CA.CDS::Certificate@000d55e7-5b89-1701-a46d-00020a2c0000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Device">
+                <StringValue>Java</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.SerialNumber">
+                <StringValue>e09d43995c6d29d2</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.IssuerDN">
+                <StringValue>EMAILADDRESS=junk@maple.ca.com, CN=CARoot, OU=QA, O=CA, L=Framingham, ST=Massachusetts, C=US</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Alias">
+                <StringValue>defaultenterpriseprivatekey</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Certificate@000d752d-5b8d-1701-a46d-00020a2c0000" -->
+        <Object Class="CA.FED::Certificate" Xid="CA.FED::Certificate@000c5c8d-555e-16fd-9b26-00020a2c0000" CreatedDateTime="2024-10-02T14:14:54" ModifiedDateTime="2024-10-02T14:14:54" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Certificate.CertificateGUID">
+                <LinkValue>
+                    <XID>CA.CDS::Certificate@000c3375-555a-16fd-9b26-00020a2c0000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Device">
+                <StringValue>Java</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.SerialNumber">
+                <StringValue>e09d43995c6d29d0</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Type">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.IssuerDN">
+                <StringValue>EMAILADDRESS=junk@maple.ca.com, CN=CARoot, OU=QA, O=CA, L=Framingham, ST=Massachusetts, C=US</StringValue>
+            </Property>
+            <Property Name="CA.FED::Certificate.Alias">
+                <StringValue>dsigningcert</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Certificate@000c5c8d-555e-16fd-9b26-00020a2c0000" -->
+    </PolicyData>
+</XPS>
+<!-- 06:16:43 2024-10-07 -->

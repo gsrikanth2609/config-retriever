@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0700.3057
+     by os:nobody
+     at 04:34:29 on 2023-07-28 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminps-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <References>
+            <ReferenceObject ReferenceId="Ref00004" ObjectClass="CA.SM::UserDirectory">
+            <Xid>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</Xid>
+            <Attribute Name="CA.SM::UserDirectory.Name" Type="Identity">
+                <StringValue>k8stestUD</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::UserDirectory.Server" Type="Comment">
+                <StringValue>52.140.82.167:1389</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::UserDirectory.Namespace" Type="Comment">
+                <StringValue>LDAP:</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00003" ObjectClass="CA.SM::AuthScheme">
+            <Xid>CA.SM::AuthScheme@0d-4afc0e42-ae25-11d1-9cdd-006008aac24b</Xid>
+            <Attribute Name="CA.SM::AuthScheme.Library" Type="Identity">
+                <StringValue>smauthdir</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AuthScheme.Name" Type="Identity">
+                <StringValue>Basic</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AuthScheme.Desc" Type="Comment">
+                <StringValue>Directory username/password</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00002" ObjectClass="CA.SM::AuthScheme">
+            <Xid>CA.SM::AuthScheme@0d-000d39d0-b7c3-11f7-93ce-030b0af40000</Xid>
+            <Attribute Name="CA.SM::AuthScheme.Library" Type="Identity">
+                <StringValue>smauthcert</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AuthScheme.Name" Type="Identity">
+                <StringValue>x509cert</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00001" ObjectClass="CA.SM::AgentType">
+            <Xid>CA.SM::AgentType@10-8d78bb96-ae15-11d1-9cdd-006008aac24b</Xid>
+            <Attribute Name="CA.SM::AgentType.Name" Type="Identity">
+                <StringValue>Web Agent</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AgentType.Desc" Type="Comment">
+                <StringValue>SiteMinder Web Agent</StringValue>
+            </Attribute>
+            </ReferenceObject>
+        </References>
+        <Object Class="CA.SM::AgentConfig" Xid="CA.SM::AgentConfig@21-000de90e-ada8-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Add">
+            <Property Name="CA.SM::AgentConfig.Attributes">
+                <StringValue>#AgentWaitTime=0=5</StringValue>
+                <StringValue>#ConformToRFC2047=0=yes</StringValue>
+                <StringValue>#CookieProvider=0=</StringValue>
+                <StringValue>#IgnoreXMLSDK=0=</StringValue>
+                <StringValue>#AutoAuthorizeOptions=0=</StringValue>
+                <StringValue>#IgnoreCPFornotprotected=0=no</StringValue>
+                <StringValue>#AuthorizationCacheTimeout=0=3600</StringValue>
+                <StringValue>ProxyTimeout=0=120</StringValue>
+                <StringValue>DecodeQueryData=0=no</StringValue>
+                <StringValue>#AutoAuthorizeHttpMethods=0=HEAD%03OPTIONS</StringValue>
+                <StringValue>#IgnoreUrl=0=</StringValue>
+                <StringValue>#ProxyHeadersDefaultTime=0=</StringValue>
+                <StringValue>#AgentNamesAreFQHostNames=0=no</StringValue>
+                <StringValue>TargetAsRelativeURI=0=no</StringValue>
+                <StringValue>#ExpireForProxy=0=</StringValue>
+                <StringValue>ConstructFullPwsvcURL=0=no</StringValue>
+                <StringValue>#LogLocalTime=0=yes</StringValue>
+                <StringValue>SFCCExt=0=.sfcc</StringValue>
+                <StringValue>#ExpiredCookieURL=0=</StringValue>
+                <StringValue>#EnableFccWindowsAuth=0=no</StringValue>
+                <StringValue>CssChecking=0=yes</StringValue>
+                <StringValue>#LegacyCookieProvider=0=no</StringValue>
+                <StringValue>#ValidErrorPageDomain=0=no</StringValue>
+                <StringValue>#AcceptTPCookie=0=</StringValue>
+                <StringValue>#LegacyEncoding=0=</StringValue>
+                <StringValue>#BadQueryChars=0=</StringValue>
+                <StringValue>UseAnonAccess=0=no</StringValue>
+                <StringValue>#ConformToRFC6265=0=yes</StringValue>
+                <StringValue>#4xCompatMode=0=</StringValue>
+                <StringValue>#DefaultHostName=0=</StringValue>
+                <StringValue>TraceAppend=0=no</StringValue>
+                <StringValue>RequireAgentEnforcement=2=no</StringValue>
+                <StringValue>TraceFileSize=0=100</StringValue>
+                <StringValue>TransientIPCheck=0=no</StringValue>
+                <StringValue>UseSecureCookies=0=no</StringValue>
+                <StringValue>EnableAz=2=yes</StringValue>
+                <StringValue>#ForceFQHost=0=no</StringValue>
+                <StringValue>NTCExt=0=.ntc</StringValue>
+                <StringValue>SessionUpdatePeriod=0=60</StringValue>
+                <StringValue>#CustomIpHeader=0=no</StringValue>
+                <StringValue>FCCExt=0=.fcc</StringValue>
+                <StringValue>UseSecureCPCookies=0=no</StringValue>
+                <StringValue>RequireCookies=0=yes</StringValue>
+                <StringValue>TransientIDCookies=0=no</StringValue>
+                <StringValue>#XFrameOptions=0=</StringValue>
+                <StringValue>#ProxyHeadersUnprotected=0=</StringValue>
+                <StringValue>#Custom401ErrorFile=0=no</StringValue>
+                <StringValue>LimitCookieProvider=0=no</StringValue>
+                <StringValue>#OverlookSessionForMethods=0=no</StringValue>
+                <StringValue>#SaveCredsTimeout=0=720</StringValue>
+                <StringValue>PersistentCookies=0=no</StringValue>
+                <StringValue>Enableauthorization=0=yes</StringValue>
+                <StringValue>EnableMonitoring=0=yes</StringValue>
+                <StringValue>IgnoreQueryData=0=no</StringValue>
+                <StringValue>Logfile=0=no</StringValue>
+                <StringValue>#SharedSecret=0=</StringValue>
+                <StringValue>DisableUserNameVars=0=no</StringValue>
+                <StringValue>ProxyAgent=0=no</StringValue>
+                <StringValue>TraceFileName=0=</StringValue>
+                <StringValue>#GetPortFromHeaders=0=no</StringValue>
+                <StringValue>AllowLocalConfig=0=no</StringValue>
+                <StringValue>BadUrlChars=0=%2F%2F%2C.%2F%2C%2F.%2C%2F%2A%2C%2A.%2C~%2C%5C%2C%2500-%251f</StringValue>
+                <StringValue>SessionGracePeriod=0=30</StringValue>
+                <StringValue>DefaultAgentName=2=webservicesagent</StringValue>
+                <StringValue>DisableSessionVars=0=no</StringValue>
+                <StringValue>EnableAuditing=0=no</StringValue>
+                <StringValue>EnableCookieProvider=0=yes</StringValue>
+                <StringValue>#ValidTargetDomain=0=no</StringValue>
+                <StringValue>#SecureURLs=0=</StringValue>
+                <StringValue>SCCExt=0=.scc</StringValue>
+                <StringValue>#TraceFormat=0=</StringValue>
+                <StringValue>#SSOTrustedZone=0=</StringValue>
+                <StringValue>#TrackSessionDomain=0=</StringValue>
+                <StringValue>#URITransform=0=</StringValue>
+                <StringValue>#UseSecureCPCookies=0=</StringValue>
+                <StringValue>#UseServerRequestIp=0=no</StringValue>
+                <StringValue>#WebAppClientResponse=0=Resource%3D%7CMethod%3D%7CStatus%3D%7CBody%3D%7CContent-Type%3D%7CCharset%3D</StringValue>
+                <StringValue>MaxSessionCacheSize=0=750</StringValue>
+                <StringValue>PSPollInterval=0=30</StringValue>
+                <StringValue>DisableAuthSrcVars=0=no</StringValue>
+                <StringValue>AllowCacheHeaders=0=no</StringValue>
+                <StringValue>#UseSessionForAnonymous=0=</StringValue>
+                <StringValue>#ServerErrorFile=0=</StringValue>
+                <StringValue>MaxUrlSize=0=4097</StringValue>
+                <StringValue>#SSOZoneName=0=</StringValue>
+                <StringValue>#StoreSessioninServer=0=</StringValue>
+                <StringValue>CCCExt=0=.ccc</StringValue>
+                <StringValue>#TraceDelimiter=0=</StringValue>
+                <StringValue>TraceConfigFile=0=</StringValue>
+                <StringValue>EnableAuth=2=yes</StringValue>
+                <StringValue>LogAppend=0=no</StringValue>
+                <StringValue>#ProxyHeadersAutoAuth10=0=</StringValue>
+                <StringValue>CookieDomain=0=</StringValue>
+                <StringValue>CookieDomainScope=0=0</StringValue>
+                <StringValue>#SmpsServicePrincipal=0=</StringValue>
+                <StringValue>#ProxyHeadersProtected10=0=</StringValue>
+                <StringValue>MaxResourceCacheSize=0=750</StringValue>
+                <StringValue>#ProxyHeadersUnprotected10=0=</StringValue>
+                <StringValue>#ReqCookieErrorFile=0=</StringValue>
+                <StringValue>AgentName=2=webservicesagent%2Crestwsapp</StringValue>
+                <StringValue>#OverlookSessionForQuery=0=</StringValue>
+                <StringValue>#PostPreservationFile=0=</StringValue>
+                <StringValue>#ProxyDefinition=0=no</StringValue>
+                <StringValue>DisableDotDotRule=0=no</StringValue>
+                <StringValue>EnforcePolicies=0=yes</StringValue>
+                <StringValue>#LegacyTransferEncoding=0=</StringValue>
+                <StringValue>#ProxyHeadersTimeOutPercentage=0=</StringValue>
+                <StringValue>#RequireClientIP=0=</StringValue>
+                <StringValue>#LegalHostNameChars=0=</StringValue>
+                <StringValue>#SecureApps=0=yes</StringValue>
+                <StringValue>#LogoffUri=0=</StringValue>
+                <StringValue>#MaxAuthorizationCacheSize=0=750</StringValue>
+                <StringValue>#OverlookSessionForMethodUri=0=</StringValue>
+                <StringValue>#ProxyHeadersProtected=0=</StringValue>
+                <StringValue>#MaxTimeoutURL=0=</StringValue>
+                <StringValue>#HttpheaderEncodingSpec=0=</StringValue>
+                <StringValue>#HttpsPorts=0=no</StringValue>
+                <StringValue>LogFileSize=0=100</StringValue>
+                <StringValue>#ProxyHeadersAutoAuth=0=</StringValue>
+                <StringValue>#KCCExt=0=</StringValue>
+                <StringValue>#IdleTimeoutURL=0=</StringValue>
+                <StringValue>#EnableAccounting=0=</StringValue>
+                <StringValue>#ForceCookieDomain=0=no</StringValue>
+                <StringValue>ProxyTrust=0=no</StringValue>
+                <StringValue>OverrideIgnoreExtFilter=0=</StringValue>
+                <StringValue>LegacyVariables=0=yes</StringValue>
+                <StringValue>#PreservePostData=0=yes</StringValue>
+                <StringValue>#LogFilesToKeep=0=</StringValue>
+                <StringValue>#Localization=0=yes</StringValue>
+                <StringValue>#EnforceRealmTimeouts=0=no</StringValue>
+                <StringValue>#MasterCookiePath=0=%2Froot</StringValue>
+                <StringValue>#OverlookSessionForUrls=0=no</StringValue>
+                <StringValue>FCCCompatMode=0=no</StringValue>
+                <StringValue>#TraceFilesToKeep=0=</StringValue>
+                <StringValue>#LowerCaseHTTP=0=yes</StringValue>
+                <StringValue>PersistentIPCheck=0=yes</StringValue>
+                <StringValue>#CookieValidationPeriod=0=no</StringValue>
+                <StringValue>#EnableFormCache=0=</StringValue>
+                <StringValue>#CssErrorfile=0=</StringValue>
+                <StringValue>#UseHTTPOnlyCookies=0=</StringValue>
+                <StringValue>#RemoteUserVar=0=</StringValue>
+                <StringValue>LogFileName=0=</StringValue>
+                <StringValue>#DefaultLocale=0=</StringValue>
+                <StringValue>#LowerCaseProtocolSpecifier=0=</StringValue>
+                <StringValue>#DeleteCerts=0=no</StringValue>
+                <StringValue>#LegacyPostPreservationEncoding=0=</StringValue>
+                <StringValue>#IgnoreHost=0=</StringValue>
+                <StringValue>TraceFile=0=no</StringValue>
+                <StringValue>ResourceCacheTimeout=0=600</StringValue>
+                <StringValue>#FCCForceIsProtected=0=</StringValue>
+                <StringValue>#DisallowUTF8NonCanonical=0=</StringValue>
+                <StringValue>#HttpServicePrincipal=0=</StringValue>
+                <StringValue>#BadCssChars=0=</StringValue>
+                <StringValue>IgnoreExt=0=.class%2C.gif%2C.jpg%2C.jpeg%2C.png%2C.fcc%2C.scc%2C.sfcc%2C.ccc%2C.ntc</StringValue>
+                <StringValue>#EncryptAgentName=0=yes</StringValue>
+                <StringValue>CacheAnonymous=0=no</StringValue>
+                <StringValue>#BadFormChars=0=%3C%2C%3E%2C%26%2C%2522</StringValue>
+                <StringValue>#PreserveHeaders=0=</StringValue>
+                <StringValue>#FormCacheTimeOut=0=</StringValue>
+                <StringValue>SetRemoteUser=0=no</StringValue>
+                <StringValue>#ClientLocalePreferred=0=no</StringValue>
+                <StringValue>PreserveUniversalId=0=no</StringValue>
+                <StringValue>#CookiePath=0=no</StringValue>
+                <StringValue>#CookiePathScope=0=%2Froot</StringValue>
+                <StringValue>#DisableDNSLookup=0=</StringValue>
+                <StringValue>#ForceGetSessionData=0=</StringValue>
+            </Property><!-- Name="CA.SM::AgentConfig.Attributes" -->
+            <Property Name="CA.SM::AgentConfig.Name">
+                <StringValue>webservicesaco</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::AgentConfig@21-000de90e-ada8-14c0-aabf-ca300a0a0000" -->
+        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-000854a3-ad79-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Add">
+            <Property Name="CA.SM::Agent.RealmHintAttrId">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Agent.AgentTypeLink">
+                <LinkValue>
+                    <XREF>Ref00001</XREF>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Name">
+                <StringValue>webservicesagent</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::Agent@01-000854a3-ad79-14c0-aabf-ca300a0a0000" -->
+        <Object Class="CA.CDS::Certificate" Xid="CA.CDS::Certificate@00042041-3df1-14c2-b51f-010d0af42020" CreatedDateTime="2023-07-27T09:50:41" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.CDS::Certificate.Type">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SubjectName">
+                <StringValue>CN=VENCH04RootCA</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.SerialNumber">
+                <StringValue>51D48DD154081CA04580288D1FD3F8D8</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IssuerDN">
+                <StringValue>CN=VENCH04RootCA</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.IsFIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.Alias">
+                <StringValue>vench04</StringValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.PrimaryValidationMethod">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CRLRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.EnableCertValidFailover">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.OCSPRevStatusValue">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.CDS::Certificate.CertificateData">
+                <StringValue>MIIDCzCCAfOgAwIBAgIQUdSN0VQIHKBFgCiNH9P42DANBgkqhkiG9w0BAQsF
+ADAYMRYwFAYDVQQDEw1WRU5DSDA0Um9vdENBMB4XDTE5MTExNTExMDM1M1oX
+DTI5MTExNTExMTM1M1owGDEWMBQGA1UEAxMNVkVOQ0gwNFJvb3RDQTCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANoBOUPE7/GnYS5T56GloyDC
+qBt89ujG4cQhkvMpOHYYm/wnQSoV55g9PwtYWVl5Y+Vxkf+2BsDV/pR4T3jj
+TnPRWhLp8m3n4khf1XDy9aMRFUXh8JlQTz+RHNckhwzYsNe6ZZdsPJifcGD3
+Vq6fSapAOZpmRil2ogj8s/vSNEn92KeOKnHTtVkK3wR+7Jab9I6oZ2NZGrpa
+RLOMuzCG5zCIuJv/dRSVAQH664fwYRuWyHXLCDv2F4YbwQg5DEKsAxo28yMi
+Xirc5cCrDdNkw0gqePo4znezm9gQx7eMMzwu+DBFwF163iq1scbHYnUlQYSM
+8jj0ceSC1qa6mtKxkq8CAwEAAaNRME8wCwYDVR0PBAQDAgGGMA8GA1UdEwEB
+/wQFMAMBAf8wHQYDVR0OBBYEFBVPb0nO6/gLUoECHp92q9AB2wxwMBAGCSsG
+AQQBgjcVAQQDAgEAMA0GCSqGSIb3DQEBCwUAA4IBAQBfTn7xNmtZ8bOQouZR
+B2aM5Xdd9WmH3eTELq8+yyrmUwiu3ZRGH58OCJtQZdlR7i6eFFLdAVfHYGTe
+/JM0guzMRXDDimOLeBeFjYC5nUcAF4wbsREB5oHGB2Pfz1m/cutdGKZMYneq
+Fw/5ttNn2Bm/yMipDJSNvLV9ccUecNypmNMNm+I/cZnSvP3xrEXq30TpF/B/
+ZqZ6yOtu4onAi0iOX5ZbKveKMLxCiexJ378ZHx7ewus5VvlUCh0PvL2XcUU6
+zJQ3QcmfppulXlMRm84zrQrqgBDfZjkF7TSz3kdTzNgL5nkflyV8mWXuzde2
+uWE0gIRrW+17qQ0d5yTXG4oe
+</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.CDS::Certificate@00042041-3df1-14c2-b51f-010d0af42020" -->
+        <Object Class="CA.SM::CertMap" Xid="CA.SM::CertMap@16-000de4d3-404b-14c2-b51f-010d0af42020" CreatedDateTime="2023-07-27T10:03:34" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::CertMap.Flags">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::CertMap.DirType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.SM::CertMap.MapToLDAP">
+                <StringValue>%{CN}</StringValue>
+            </Property>
+            <Property Name="CA.SM::CertMap.IssuerDN">
+                <StringValue>CN=VENCH04RootCA</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::CertMap@16-000de4d3-404b-14c2-b51f-010d0af42020" -->
+        <Object Class="CA.SM::Domain" Xid="CA.SM::Domain@03-000b8245-ae25-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Replace">
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsDLP">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XREF>Ref00004</XREF>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>authazdomain</StringValue>
+            </Property>
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-000541e4-ae3b-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XREF>Ref00003</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-000854a3-ad79-14c0-aabf-ca300a0a0000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/stest</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>1200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>authazrealm</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000db8d3-ae52-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>authazrule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000db8d3-ae52-14c0-aabf-ca300a0a0000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-000541e4-ae3b-14c0-aabf-ca300a0a0000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-000b07eb-391b-14c2-b51f-010d0af42020" CreatedDateTime="2023-07-27T09:30:49" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XREF>Ref00002</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-000854a3-ad79-14c0-aabf-ca300a0a0000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/x509</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>1200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>x509realm</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-00006420-392d-14c2-b51f-010d0af42020" CreatedDateTime="2023-07-27T09:30:49" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>/*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Get</StringValue>
+                        <StringValue>Post</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>x509rule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-00006420-392d-14c2-b51f-010d0af42020" -->
+            </Object><!-- Xid="CA.SM::Realm@06-000b07eb-391b-14c2-b51f-010d0af42020" -->
+            <Object Class="CA.SM::Policy" Xid="CA.SM::Policy@04-000399eb-ae71-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>authazpolicy</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" Xid="CA.SM::UserPolicy@0f-00084df5-ae7b-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XREF>Ref00004</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::UserPolicy@0f-00084df5-ae7b-14c0-aabf-ca300a0a0000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-0005e8fb-ae7f-14c0-aabf-ca300a0a0000" CreatedDateTime="2023-07-27T09:12:53" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000db8d3-ae52-14c0-aabf-ca300a0a0000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-0005e8fb-ae7f-14c0-aabf-ca300a0a0000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000ca000-3953-14c2-b51f-010d0af42020" CreatedDateTime="2023-07-27T09:31:09" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-00006420-392d-14c2-b51f-010d0af42020</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000ca000-3953-14c2-b51f-010d0af42020" -->
+            </Object><!-- Xid="CA.SM::Policy@04-000399eb-ae71-14c0-aabf-ca300a0a0000" -->
+        </Object><!-- Xid="CA.SM::Domain@03-000b8245-ae25-14c0-aabf-ca300a0a0000" -->
+    </PolicyData>
+</XPS>
+<!-- 04:34:29 2023-07-28 -->

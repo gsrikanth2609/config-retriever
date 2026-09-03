@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by CA SiteMinder Version 12.8.0700.3057
+     by os:nobody
+     at 14:06:20 on 2023-07-31 -->
+<XPS>
+    <XPSVersion>1</XPSVersion>
+    <HostInformation>adminps-siteminder-admin-0</HostInformation>
+    <XPSAdmin>os:nobody</XPSAdmin>
+    <PolicyData IsDumpExport="false">
+        <References>
+            <ReferenceValue ReferenceId="Ref00001">
+                <StringValue>https://cloudssoagtesting.ca.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00002">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/oauthtokenconsumer</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00003">
+                <StringValue>cn=Directory Manager</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00004">
+                <StringValue>o=security.com</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00005">
+                <StringValue>52.140.82.167:1389</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00006">
+                <StringValue>https://accounts.google.com/o/oauth2/auth</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00007">
+                <StringValue>https://accounts.google.com/o/oauth2/token</StringValue>
+            </ReferenceValue>
+            <ReferenceValue ReferenceId="Ref00008">
+                <StringValue>https://www.googleapis.com/oauth2/v1/userinfo</StringValue>
+            </ReferenceValue>
+            <ReferenceObject ReferenceId="Ref00010" ObjectClass="CA.SM::AgentTypeAttr">
+            <Xid>CA.SM::AgentTypeAttr@11-3974f60e-eb2e-49b8-96cc-fd6253483c0d</Xid>
+            <Attribute Name="CA.SM::AgentTypeAttr.Name" Type="Identity">
+                <StringValue>Affiliate-HTTP-Header-Variable</StringValue>
+            </Attribute>
+            </ReferenceObject>
+            <ReferenceObject ReferenceId="Ref00009" ObjectClass="CA.SM::AgentType">
+            <Xid>CA.SM::AgentType@10-fbe22c2f-ce96-4465-a8f3-45219bdd5232</Xid>
+            <Attribute Name="CA.SM::AgentType.Name" Type="Identity">
+                <StringValue>AffiliateMinder</StringValue>
+            </Attribute>
+            <Attribute Name="CA.SM::AgentType.Desc" Type="Comment">
+                <StringValue>AffiliateMinder Agent</StringValue>
+            </Attribute>
+            </ReferenceObject>
+        </References>
+        <Object Class="CA.SM::OAuthIdP" Xid="CA.SM::OAuthIdP@21-000b5cda-b68c-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:26:36" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
+            <Property Name="CA.SM::OAuthIdP.UserInfoEndpointRequestMethod">
+                <StringValue>0</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ValidateAccessTokenType">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.UserIDAttribute">
+                <StringValue>name</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.UrlEncodeAttrCookieData">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.UserInfoURL">
+                <StringValue>https://www.googleapis.com/oauth2/v1/userinfo</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.SupportAuthzHeader">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ValidateTargetURLDomain">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.Scope">
+                <StringValue>https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ProxyServer">
+                <StringValue>https://cloudssoagtesting.ca.com</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ProvisioningType">
+                <StringValue>0</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ProvisioningDeliveryType">
+                <StringValue>3</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.RealmOID">
+                <StringValue>06-000c3e56-b637-14c7-9223-000d0af40000</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.PartnershipName">
+                <StringValue>oauth_google1</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.IsActive">
+                <StringValue>true</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.RedirectMode">
+                <StringValue>1</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.PartnershipSource">
+                <StringValue>3</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.EnableSMC">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.SMCOverrideProtectionLevel">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.EnableAttributeMapping">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ClientSecret" Sensitive="Yes">
+                <StringValue>REPLACEDSTRING</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.RedirectURL">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/oauthtokenconsumer</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.OAuthVersion">
+                <StringValue>2.0</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.EnableAnonymousMode">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.AuthzServerID">
+                <StringValue>Google1</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.SupportedAccessTokenTypes">
+                <StringValue>Bearer</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.AuthorizationServerTimeout">
+                <StringValue>300</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ClientAuthType">
+                <StringValue>0</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ClientID">
+                <StringValue>oauthclient1</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.AccessTokenQueryParameter">
+                <StringValue>access_token</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.RelayStateOverridesSsoTarget">
+                <StringValue>false</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.Target">
+                <StringValue>https://docs.openshift.com/</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.SkewTime">
+                <StringValue>0</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.ClientAuthID">
+                <StringValue>NEWREPLACEDSTRING</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.AccessTokenURL">
+                <StringValue>https://accounts.google.com/o/oauth2/token</StringValue>
+            </Property>
+            <Property Name="CA.SM::OAuthIdP.AuthorizationServiceURL">
+                <StringValue>https://accounts.google.com/o/oauth2/auth</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::OAuthIdP@21-000b5cda-b68c-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::StatusRedirects" Xid="CA.FED::StatusRedirects@00011ed8-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::StatusRedirects.EnableUnauthorizedRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.ServerErrorRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnacceptedMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidRequestRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.InvalidMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UserNotFoundMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.UnauthorizedAccessRedirectMode">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableInvalidRequestURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::StatusRedirects.EnableServerErrorURL">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::StatusRedirects@00011ed8-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::OpenCookieConfig" Xid="CA.FED::OpenCookieConfig@00017322-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OpenCookieConfig.TimeToLive">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.SkewTime">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableQuotedCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableHMAC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionTransformation">
+                <StringValue>AES128/CBC/PKCS5Padding</StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.CookieName">
+                <StringValue>DEFAULT</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OpenCookieConfig@00017322-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::OpenCookieConfig" Xid="CA.FED::OpenCookieConfig@00019244-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OpenCookieConfig.TimeToLive">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.SkewTime">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableQuotedCookie">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EnableHMAC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.EncryptionTransformation">
+                <StringValue>AES128/CBC/PKCS5Padding</StringValue>
+            </Property>
+            <Property Name="CA.FED::OpenCookieConfig.CookieName">
+                <StringValue>DEFAULT</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OpenCookieConfig@00019244-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.SM::Agent" Xid="CA.SM::Agent@01-000c39ee-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::Agent.RealmHintAttrId">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Agent.AgentTypeLink">
+                <LinkValue>
+                    <XREF>Ref00009</XREF>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Agent.Name">
+                <StringValue>oauthclient:oauth_google1</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::Agent@01-000c39ee-b637-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0006ef23-b5f7-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:24:07" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00008</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthUserInformationService.IsUserInfoService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0006ef23-b5f7-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0001ad5a-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00007</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthAccessTokenService.IsAccessTokenService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0001ad5a-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0001c731-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00006</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthAuthorizationService.IsAuthzService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0001c731-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@000304c0-b5ae-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:22:54" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00007</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthAccessTokenService.IsAccessTokenService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@000304c0-b5ae-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::Endpoint" Xid="CA.FED::Endpoint@0002dfe4-b5ae-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:22:54" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::Endpoint.IsDefault">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Location">
+                <LinkValue><XREF>Ref00006</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Index">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::Endpoint.Binding">
+                <StringValue>urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthAuthorizationService.IsAuthzService">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::Endpoint@0002dfe4-b5ae-14c7-9223-000d0af40000" -->
+        <Object Class="CA.SM::UserDirectory" Xid="CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f" CreatedDateTime="2023-07-31T10:50:49" UpdatedBy="XPSDictionary::Import" UpdateMethod="Internal" ExportType="Add">
+            <Property Name="CA.SM::UserDirectory.UseAdvancedAuthStore">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.RequireCredentials">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SecureConnection">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupEnd">
+                <StringValue>)(objectclass=*))</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Username">
+                <LinkValue><XREF>Ref00003</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Password" Sensitive="Yes">
+                <StringValue>firewall</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.UserLookupStart">
+                <StringValue>(&amp;(uid=</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchScope">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Server">
+                <LinkValue><XREF>Ref00005</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchRoot">
+                <LinkValue><XREF>Ref00004</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchResults">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Namespace">
+                <StringValue>LDAP:</StringValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.EnableSecurityContext">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.SearchTimeout">
+                <NumberValue>30</NumberValue>
+            </Property>
+            <Property Name="CA.SM::UserDirectory.Name">
+                <StringValue>k8stestUD</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f" -->
+        <Object Class="CA.SM::AuthScheme" Xid="CA.SM::AuthScheme@0d-000c3be9-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" ModifiedDateTime="2023-07-31T13:26:36" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.SM::AuthScheme.IPCheck">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowAuthLevelOverride">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.SupportsValidateIdentity">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsRadius">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IgnorePwCheck">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.AllowSaveCreds">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Type">
+                <NumberValue>15</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsUsedbyAdmin">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Param">
+                <StringValue>com.ca.federation.api.auth.FedOAuthAuthScheme</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Library">
+                <StringValue>smjavaapi</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Level">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.IsTemplate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Desc">
+                <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+            </Property>
+            <Property Name="CA.SM::AuthScheme.Name">
+                <StringValue>oauthclient:oauth_google1_auth</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.SM::AuthScheme@0d-000c3be9-b637-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::OAuthEntityBase" Xid="CA.FED::OAuthEntityBase@00032331-b5ae-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:22:54" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.Scope">
+                <StringValue>https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.SupportedAccessTokenTypes">
+                <StringValue>Bearer</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.OAuthVersion">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.Description">
+                <StringValue>Google OAuth2.0 Authorization Service</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.Name">
+                <StringValue>GoogleAuthorizationServer1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.SupportAuthzHeader">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.IsAuthzServerRemote">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.ID">
+                <StringValue>Google1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.AccessTokenURLLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@000304c0-b5ae-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.AuthorizationURLLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0002dfe4-b5ae-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityAuthzServerRemote.AccessTokenQueryParameter">
+                <StringValue>access_token</StringValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OAuthEntityBase@00032331-b5ae-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::OAuthEntityBase" Xid="CA.FED::OAuthEntityBase@000c6cdb-b55d-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:21:33" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OAuthEntityBase.OAuthVersion">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.BaseURL">
+                <LinkValue><XREF>Ref00001</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.Name">
+                <StringValue>oauthgoogleclient1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.RedirectURL">
+                <LinkValue><XREF>Ref00002</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityBase.ID">
+                <StringValue>oauthclient1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthEntityClientLocal.IsClientLocal">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OAuthEntityBase@000c6cdb-b55d-14c7-9223-000d0af40000" -->
+        <Object Class="CA.SM::Domain" Xid="CA.SM::Domain@03-00020b03-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Replace">
+            <Property Name="CA.SM::Domain.Mode">
+                <NumberValue>2</NumberValue>
+            </Property>
+            <Property Name="CA.SM::Domain.IsAffiliate">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Desc">
+                <StringValue>Backing Domain for FEDOAUTH SP to IP Partnership</StringValue>
+            </Property>
+            <Property Name="CA.SM::Domain.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.SM::Domain.Name">
+                <StringValue>oauthclient:oauth_google1</StringValue>
+            </Property>
+            <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Object Class="CA.SM::Response" Xid="CA.SM::Response@07-000c51b0-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XREF>Ref00009</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>oauthclient:oauth_google1_oauthdata</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" Xid="CA.SM::ResponseAttr@08-000c5610-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>UserState=UserNotFound</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XREF>Ref00010</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::ResponseAttr@08-000c5610-b637-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::ResponseAttr" Xid="CA.SM::ResponseAttr@08-000c5a0f-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::ResponseAttr.ActiveExprString">
+                        <StringValue>&lt;@lib=&quot;smjavaapi&quot; func=&quot;JavaActiveExpression&quot; param=&quot;com.ca.federation.api.expression.GetOAuthResponseFromContext&quot; @&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>AttributeMappingResponse</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XREF>Ref00010</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::ResponseAttr@08-000c5a0f-b637-14c7-9223-000d0af40000" -->
+            </Object><!-- Xid="CA.SM::Response@07-000c51b0-b637-14c7-9223-000d0af40000" -->
+            <Object Class="CA.SM::Response" Xid="CA.SM::Response@07-000c5ade-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Response.AccessChallenge">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessReject">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AccessAccept">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Response.AgentTypeLink">
+                    <LinkValue>
+                        <XREF>Ref00009</XREF>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Response.Name">
+                    <StringValue>oauthclient:oauth_google1_oauthdata2</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::ResponseAttr" Xid="CA.SM::ResponseAttr@08-000c5ebb-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::ResponseAttr.ActiveExprString">
+                        <StringValue>&lt;@lib=&quot;smjavaapi&quot; func=&quot;JavaActiveExpression&quot; param=&quot;com.ca.federation.api.expression.GetOAuthResponseFromContext&quot; @&gt;</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.TTL">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Value">
+                        <StringValue>AttributeMappingResponse</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.Flags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::ResponseAttr.AgentTypeAttrLink">
+                        <LinkValue>
+                            <XREF>Ref00010</XREF>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::ResponseAttr@08-000c5ebb-b637-14c7-9223-000d0af40000" -->
+            </Object><!-- Xid="CA.SM::Response@07-000c5ade-b637-14c7-9223-000d0af40000" -->
+            <Object Class="CA.SM::Realm" Xid="CA.SM::Realm@06-000c3e56-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Realm.MinUserConfidenceLevel">
+                    <NumberValue>0</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionType">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SyncAudit">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.IdleTimeout">
+                    <NumberValue>3600</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProtectAll">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.SessionDrift">
+                    <NumberValue>-1</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AuthSchemeLink">
+                    <LinkValue>
+                        <XID>CA.SM::AuthScheme@0d-000c3be9-b637-14c7-9223-000d0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAzEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ProcessAuthEvents">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Realm.AgentLink">
+                    <LinkValue>
+                        <XID>CA.SM::Agent@01-000c39ee-b637-14c7-9223-000d0af40000</XID>
+                    </LinkValue>
+                </Property>
+                <Property Name="CA.SM::Realm.ResourceFilter">
+                    <StringValue>/</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.MaxTimeout">
+                    <NumberValue>7200</NumberValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Realm.Name">
+                    <StringValue>oauthclient:oauth_google1</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000c4b97-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>Visit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>oauthclient:oauth_google1</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000c4b97-b637-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000c5fb1-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>OnAuthAccept</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>oauthclient:oauth_google1_OAUTHDataAttrMappingRule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000c5fb1-b637-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::Rule" Xid="CA.SM::Rule@0b-000c6109-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::Rule.RegularExpression">
+                        <BooleanValue>false</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.TimeRestriction">
+                        <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.IsEnabled">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Resource">
+                        <StringValue>*</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.AllowAccess">
+                        <BooleanValue>true</BooleanValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Actions">
+                        <StringValue>OnAuthAttempt</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Desc">
+                        <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::Rule.Name">
+                        <StringValue>oauthclient:oauth_google1_OAUTHDataNotFoundRule</StringValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::Rule@0b-000c6109-b637-14c7-9223-000d0af40000" -->
+            </Object><!-- Xid="CA.SM::Realm@06-000c3e56-b637-14c7-9223-000d0af40000" -->
+            <Object Class="CA.SM::Policy" Xid="CA.SM::Policy@04-00020c77-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" UpdatedBy="siteminder" UpdateMethod="GUI">
+                <Property Name="CA.SM::Policy.ValidateIdDifferentUser">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.IsEnabled">
+                    <BooleanValue>true</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.AllowAccess">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.TimeRestriction">
+                    <StringValue>00000000-00000000-7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.ValidateIdentity">
+                    <BooleanValue>false</BooleanValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Desc">
+                    <StringValue>Backing Object for Partnership Federation - do not edit</StringValue>
+                </Property>
+                <Property Name="CA.SM::Policy.Name">
+                    <StringValue>oauthclient:oauth_google1</StringValue>
+                </Property>
+                <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                    <NumberValue>1</NumberValue>
+                </Property>
+                <Object Class="CA.SM::UserPolicy" Xid="CA.SM::UserPolicy@0f-0004b675-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::UserPolicy.UserDirectoryLink">
+                        <LinkValue>
+                            <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyFlags">
+                        <NumberValue>0</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.PolicyResolution">
+                        <NumberValue>7</NumberValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterClass">
+                        <StringValue>All</StringValue>
+                    </Property>
+                    <Property Name="CA.SM::UserPolicy.FilterPath">
+                        <StringValue>All</StringValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::UserPolicy@0f-0004b675-b5db-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000c4cd5-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000c4b97-b637-14c7-9223-000d0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000c4cd5-b637-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000c6366-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.ResponseLink">
+                        <LinkValue>
+                            <XID>CA.SM::Response@07-000c5ade-b637-14c7-9223-000d0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000c5fb1-b637-14c7-9223-000d0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000c6366-b637-14c7-9223-000d0af40000" -->
+                <Object Class="CA.SM::PolicyLink" Xid="CA.SM::PolicyLink@05-000c6246-b637-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI">
+                    <Property Name="CA.SM::PolicyLink.ResponseLink">
+                        <LinkValue>
+                            <XID>CA.SM::Response@07-000c51b0-b637-14c7-9223-000d0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.SM::PolicyLink.RuleLink">
+                        <LinkValue>
+                            <XID>CA.SM::Rule@0b-000c6109-b637-14c7-9223-000d0af40000</XID>
+                        </LinkValue>
+                    </Property>
+                    <Property Name="CA.XPS::MetaAttributes.HidingMask">
+                        <NumberValue>1</NumberValue>
+                    </Property>
+                </Object><!-- Xid="CA.SM::PolicyLink@05-000c6246-b637-14c7-9223-000d0af40000" -->
+            </Object><!-- Xid="CA.SM::Policy@04-00020c77-b5db-14c7-9223-000d0af40000" -->
+        </Object><!-- Xid="CA.SM::Domain@03-00020b03-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@0000c654-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>defaultUser</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>2</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@0000c654-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::BackchannelConfig" Xid="CA.FED::BackchannelConfig@0000e40c-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::BackchannelConfig.Password" Sensitive="Yes">
+                <StringValue>REPLACEDSTRING</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.BackchannelTimeout">
+                <NumberValue>300</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.UserName">
+                <StringValue>NEWREPLACEDSTRING</StringValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.AuthType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::BackchannelConfig.ChannelType">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::BackchannelConfig@0000e40c-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::UserMapping" Xid="CA.FED::UserMapping@000101ec-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:25:11" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::UserMapping.LookupType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::UserMapping.Type">
+                <NumberValue>1</NumberValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::UserMapping@000101ec-b5db-14c7-9223-000d0af40000" -->
+        <Object Class="CA.FED::OAuthPartnershipBase" Xid="CA.FED::OAuthPartnershipBase@0001e47c-b5db-14c7-9223-000d0af40000" CreatedDateTime="2023-07-31T13:23:39" ModifiedDateTime="2023-07-31T13:26:36" UpdatedBy="siteminder" UpdateMethod="GUI" ExportType="Add">
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ProtectionLevel">
+                <NumberValue>5</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ValidateTargetURLDomain">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SupportAuthzHeader">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.LocalClientLink">
+                <LinkValue>
+                    <XID>CA.FED::OAuthEntityBase@000c6cdb-b55d-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.PolicyLink">
+                <LinkValue>
+                    <XID>CA.SM::Policy@04-00020c77-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.UserIDAttribute">
+                <StringValue>name</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SessionDrift">
+                <NumberValue>-1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.DefaultTarget">
+                <StringValue>https://docs.openshift.com/</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.UserInfoEndpointRequestMethod">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.AccessTokenQueryParameter">
+                <StringValue>access_token</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.AuthSchemeLink">
+                <LinkValue>
+                    <XID>CA.SM::AuthScheme@0d-000c3be9-b637-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.Name">
+                <StringValue>oauth_google1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.TargetOpenCookieConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::OpenCookieConfig@00019244-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ProvOpenCookieConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::OpenCookieConfig@00017322-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SupportedAccessTokenTypes">
+                <StringValue>Bearer</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.UserInfoURLLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0006ef23-b5f7-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.RedirectURL">
+                <StringValue>https://cloudssoagtesting.ca.com/affwebservices/public/oauthtokenconsumer</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.RedirectMode">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.EnableAttributeMapping">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.SkewTime">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.PersistClaimsToSessionStore">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.AnonymousUser">
+                <StringValue> </StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.EnableAnonymousMode">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.RemoteAuthzServerLink">
+                <LinkValue>
+                    <XID>CA.FED::OAuthEntityBase@00032331-b5ae-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ProvisioningDeliveryType">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.EnableSessionAssurance">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.OAuthVersion">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ValidateAccessTokenType">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.UserMappingLink">
+                <LinkValue>
+                    <XID>CA.FED::UserMapping@000101ec-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.AuthzServerID">
+                <StringValue>Google1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.StatusRedirectLink">
+                <LinkValue>
+                    <XID>CA.FED::StatusRedirects@00011ed8-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.RelayStateOverridesSsoTarget">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.DomainLink">
+                <LinkValue>
+                    <XID>CA.SM::Domain@03-00020b03-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.AuthorizationURLLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0001c731-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.MaxTimeout">
+                <NumberValue>7200</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.UrlEncodeAttrCookieData">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.Scope">
+                <StringValue>https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.AgentLink">
+                <LinkValue>
+                    <XID>CA.SM::Agent@01-000c39ee-b637-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.IdleTimeout">
+                <NumberValue>3600</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.FIPSApproved">
+                <BooleanValue>true</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ClientID">
+                <StringValue>oauthclient1</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.PersistSessionVars">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SMCOverrideProtectionLevel">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.UserDirectoriesLink">
+                <LinkValue>
+                    <XID>CA.SM::UserDirectory@0e-000d6563-e743-109c-a30f-5efa0a83a47f</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.PartnershipVersion">
+                <StringValue>12.5</StringValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.BaseURL">
+                <LinkValue><XREF>Ref00001</XREF></LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SyncAudit">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.AccessTokenURLLink">
+                <LinkValue>
+                    <XID>CA.FED::Endpoint@0001ad5a-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.SessionType">
+                <NumberValue>1</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.Status">
+                <NumberValue>3</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthClientToAuthzServerPship.ProvisioningType">
+                <NumberValue>0</NumberValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.EnableSMC">
+                <BooleanValue>false</BooleanValue>
+            </Property>
+            <Property Name="CA.FED::OAuthPartnershipBase.BackchannelConfigLink">
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@0000c654-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+                <LinkValue>
+                    <XID>CA.FED::BackchannelConfig@0000e40c-b5db-14c7-9223-000d0af40000</XID>
+                </LinkValue>
+            </Property>
+        </Object><!-- Xid="CA.FED::OAuthPartnershipBase@0001e47c-b5db-14c7-9223-000d0af40000" -->
+    </PolicyData>
+</XPS>
+<!-- 14:06:20 2023-07-31 -->
